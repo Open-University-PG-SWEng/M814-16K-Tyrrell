@@ -19,3 +19,16 @@ Rationale: System users must be able to update a workshop details on facilitator
 Originator: Karen, Centre Administrator
 Comments: Filippo Sassi
 
+REQ-ID: 003
+Description: The product shall determine if a customer is a member of the centre.
+Type: Functional
+Rationale: Members receive special benefits such as a discount on workshops.
+Originator: Karen Black, Centre Administrator
+Comments:
+
+REQ-ID: 004
+Description: The product shall determine if a member has a direct debit set up.
+Type: Functional
+Rationale: Members receive a discount on workshops if they have a direct debit set up.
+Originator: Karen Black, Centre Administrator
+Comments:

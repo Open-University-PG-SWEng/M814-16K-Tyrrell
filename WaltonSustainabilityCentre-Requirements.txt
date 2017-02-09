@@ -53,3 +53,17 @@ Type: Functional
 Rationale: Customers can only be booked onto workshops that have space availablity.
 Originator: Karen Black, Centre Administrator
 Comments:
+
+REQ-ID: 008
+Description: The product shall be updated to record that a workshop facilitator or lecturer has been paid
+Type: Functional
+Rationale: Once a facilitator/lecturer invoice has been paid the workshop information is updated to record this, in case of subsequent query or receiving of another invoice. 
+Originator: Karen Black, Centre Administrator
+Comments: GS
+
+REQ-ID: 009
+Description: The product shall inform of the agreed fees for a workshop or class upon receipt of an invoice
+Type: Functional
+Rationale: To accurately pay facilitator/lecturer invoices in accordance with agreed terms.
+Originator: Karen Black, Centre Administrator
+Comments: GS

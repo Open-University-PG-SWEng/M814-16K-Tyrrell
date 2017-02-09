@@ -46,3 +46,10 @@ Type: Functional
 Rationale: Members recieve a discount which should be automatically applied to all workshop bookings automatically.
 Originator: Karen Black, Centre Administrator
 Comments:
+
+REQ-ID: 007
+Description: The product shall determine number of available places prior to booking.
+Type: Functional
+Rationale: Customers can only be booked onto workshops that have space availablity.
+Originator: Karen Black, Centre Administrator
+Comments:

@@ -5,4 +5,51 @@ Rationale:
 Originator:
 Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 
+REQ-ID: 001
+Description: The product shall record workshop information.
+Type: Functional
+Rationale: The information for each workshop must be available to the system users.
+Originator: Karen, Centre Administrator
+Comments: Filippo Sassi
 
+REQ-ID: 002
+Description: The product shall update existing workshops information.
+Type: Functional
+Rationale: System users must be able to update a workshop details on facilitator’s request.
+Originator: Karen, Centre Administrator
+Comments: Filippo Sassi
+
+REQ-ID: 003
+Description: The product shall determine if a customer is a member of the centre.
+Type: Functional
+Rationale: Members receive special benefits such as a discount on workshops.
+Originator: Karen Black, Centre Administrator
+Comments:
+
+REQ-ID: 004
+Description: The product shall determine if a member has a direct debit set up.
+Type: Functional
+Rationale: Members receive a discount on workshops if they have a direct debit set up.
+Originator: Karen Black, Centre Administrator
+Comments:
+
+REQ-ID: 005
+Description: The product shall determine if a delegate is a member.
+Type: Functional
+Rationale: Members will recieve a discount on their order whereas non-members will pay full price.
+Originator: Karen Black, Centre Administrator
+Comments:
+
+REQ-ID: 006
+Description: The product shall determine if a members discount and apply it to the order.
+Type: Functional
+Rationale: Members recieve a discount which should be automatically applied to all workshop bookings automatically.
+Originator: Karen Black, Centre Administrator
+Comments:
+
+REQ-ID: 007
+Description: The product shall determine number of available places prior to booking.
+Type: Functional
+Rationale: Customers can only be booked onto workshops that have space availablity.
+Originator: Karen Black, Centre Administrator
+Comments:

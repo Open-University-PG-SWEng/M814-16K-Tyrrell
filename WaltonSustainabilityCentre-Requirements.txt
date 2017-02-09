@@ -32,3 +32,17 @@ Type: Functional
 Rationale: Members receive a discount on workshops if they have a direct debit set up.
 Originator: Karen Black, Centre Administrator
 Comments:
+
+REQ-ID: 005
+Description: The product shall determine if a delegate is a member.
+Type: Functional
+Rationale: Members will recieve a discount on their order whereas non-members will pay full price.
+Originator: Karen Black, Centre Administrator
+Comments:
+
+REQ-ID: 006
+Description: The product shall determine if a members discount and apply it to the order.
+Type: Functional
+Rationale: Members recieve a discount which should be automatically applied to all workshop bookings automatically.
+Originator: Karen Black, Centre Administrator
+Comments:

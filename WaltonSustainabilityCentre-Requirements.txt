@@ -32,3 +32,17 @@ Type: Functional
 Rationale: Members receive a discount on workshops if they have a direct debit set up.
 Originator: Karen Black, Centre Administrator
 Comments:
+
+REQ-ID: 005
+Description:
+Type: Functional
+Rationale: 
+Originator: 
+Comments:
+
+REQ-ID: 006
+Description: 
+Type: Functional
+Rationale: 
+Originator: 
+Comments:

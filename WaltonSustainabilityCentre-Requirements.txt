@@ -73,11 +73,11 @@ Description: The product should identify additional equipment requirements
 Type:Functional
 Rationale: To assess whether equipment needs to be ordered or reserved
 Originator: Karen
-Comments: AG
+Comments: AGilmour
 
 REQ-ID: 011
 Description: The product should provide a status update
 Type: Functional 
 Rationale: So that staff and facilitators know what will be available
 Originator: Karen
-Comments: AG
+Comments: AGilmour

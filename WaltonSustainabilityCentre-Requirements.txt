@@ -81,3 +81,17 @@ Type: Functional
 Rationale: So that staff and facilitators know what will be available
 Originator: Karen
 Comments: AGilmour
+
+REQ-ID: 012
+Description: The product shall determine the availability of places for a specified workshop.
+Type: Functional
+Rationale: Potential attendees will become disaffected if the workshop application process cannot calculate the number of available places accurately.  It is in the interest of Walton Sustainability Centre that classes are as well-attended as possible.
+Originator: Karen Black
+Comments: Initial suggestion came during discussion with Marion, but Karen made a general summary of requests at the end of her discussion, and has authority as Centre Administrator.
+
+REQ-ID: 013
+Description: The product shall determine whether an identified user is a member.
+Type: Functional
+Rationale: In return for guaranteed subscription, members are entitled to discount on workshops.
+Originator: Karen Black
+Comments: Initial suggestion came during discussion with Marion, but Karen made a general summary of requests at the end of her discussion, and has authority as Centre Administrator.

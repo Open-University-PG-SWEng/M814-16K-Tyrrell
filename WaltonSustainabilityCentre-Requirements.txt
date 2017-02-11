@@ -83,16 +83,16 @@ Originator: Karen
 Comments: AGilmour
 
 REQ-ID: 012
-Description:
+Description: The system shall track all business activities, people and resources
 Type: Functional
-Rationale: 
-Originator: 
+Rationale: Be able to efficiently manage memberships, reservations, payments and plan activities
+Originator: Justin and Marion 
 Comments: David Perez
 
 REQ-ID: 013
-Description: 
+Description: The product shall register payments and billing information 
 Type: Functional
-Rationale: 
-Originator: 
+Rationale: Customers can pay for the services received and The Centre can pay the fees to the workshop coordinators and class lecturers
+Originator: Justin and Marion
 Comments: David Perez
 

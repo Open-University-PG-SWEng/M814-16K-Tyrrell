@@ -109,3 +109,45 @@ Type: Functional
 Rationale: Not every client has to be a member
 Originator: Karen Black, Centre Administrator
 Comments: This link allows administrator to confirm membership ID with client name and date of birth for example.
+
+REQ-ID: 016
+Description: The product must to able to check event bookings for any planning issues.
+Type: Functional
+Rationale: Planning and execution of events has many dependencies that must be tracked and problems reported in good time for corrective action.
+Originator: Karen, Marion
+Comments: [Dini] There are a lot of inputs to this, currently identified are: required supplies, current stock, ordered supplies, supply lead times, availablility of centre facilities, availability of staff/participants.
+
+REQ-ID: 017
+Description: The product must help track the payment for and receiving of supplies and manage risk of delivery failures.
+Type: Functional
+Rationale: Supplies needed for events must be tracked to ensure their availability for events (as part of satisfying REQ-ID 016) and also ensure that all paid for goods are correctly received.
+Originator: Marion
+Comments: [Dini] The delivery of supplies essential to events means that events are subject to risk from external factors, such as failure for suppliers to deliver, delays in delivery or receipt of damaged goods. Keeping track of what has been ordered and what has been delivered and current stock of any locally held supplies is best handled by a robust system that avoids human error and provides timely and accurate information to allow for flexibility in fixing any unforeseen problems. The complexity of this aspect is viewed as a particuliar concern for the entire project, as it also involves a part of the process that cannot be readily automated: inspection of received goods to ensure they are to specification.
+
+REQ-ID: 018
+Description: The system shall track all business activities, people and resources
+Type: Functional
+Rationale: Be able to efficiently manage memberships, reservations, payments and plan activities
+Originator: Justin and Marion 
+Comments: David Perez
+
+REQ-ID: 019
+Description: The product shall register payments and billing information 
+Type: Functional
+Rationale: Customers can pay for the services received and The Centre can pay the fees to the workshop coordinators and class lecturers
+Originator: Justin and Marion
+Comments: David Perez
+
+REQ-ID: 020
+Description: The product shall handle the creation of new memberships.
+Type: Functional
+Rationale: When non-members visit the centre, a mechanism is needed to add interested individuals to the membership roll. 
+Originator: Marion and Justin.
+Comments: Added by Tim Holmes-Mitra.  Although this requirement was not explicitly stated during interviews, is an implicit and necessary part of membership management.
+
+REQ-ID: 021
+Description: The product shall handle the deletion of existing memberships.
+Type: Functional.
+Rationale:  As the membership roll evolves through time, a mechanism is needed to remove inactive members for a variety of reasons: on request, inactivity, etc.
+Originator: Marion and Justin.
+Comments: Added by Tim Holmes-Mitra.  Although this requirement was not explicitly stated during interviews, is an implicit and necessary part of membership management.

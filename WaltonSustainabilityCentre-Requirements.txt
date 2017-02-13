@@ -138,3 +138,16 @@ Rationale: Customers can pay for the services received and The Centre can pay th
 Originator: Justin and Marion
 Comments: David Perez
 
+REQ-ID: 020
+Description: The product shall handle the creation of new memberships.
+Type: Functional
+Rationale: When non-members visit the centre, a mechanism is needed to add interested individuals to the membership roll. 
+Originator: Marion and Justin.
+Comments: Added by Tim Holmes-Mitra.  Although this requirement was not explicitly stated during interviews, is an implicit and necessary part of membership management.
+
+REQ-ID: 021
+Description: The product shall handle the deletion of existing memberships.
+Type: Functional.
+Rationale:  As the membership roll evolves through time, a mechanism is needed to remove inactive members for a variety of reasons: on request, inactivity, etc.
+Originator: Marion and Justin.
+Comments: Added by Tim Holmes-Mitra.  Although this requirement was not explicitly stated during interviews, is an implicit and necessary part of membership management.

@@ -179,3 +179,17 @@ Type: Functional
 Rationale: Volunteer progress is shared with the European Volunteer Service (EVS) to ensure they reach the required standard
 Originator: Marion
 Comments: Chris Freshman
+
+REQ-ID: 026 
+Description: The product shall check the member is registered on walton sustainability centre
+Type: Functional
+Rationale: To update modified member information for correct personnel
+Originator: Administration team (Karen, Sandra, James)
+Comment:
+
+REQ-ID: 027
+Description: The product shall records updated member information on the system
+Type: Functional
+Rationale: To keep track of membership type, subscription expiry date, workshop or class records
+Originator: Administration team (Karen, Sandra, James)
+Comment:

@@ -15,7 +15,7 @@ Comments: Filippo Sassi
 REQ-ID: 002
 Description: The product shall update existing workshops information.
 Type: Functional
-Rationale: System users must be able to update a workshop details on facilitator’s request.
+Rationale: System users must be able to update a workshop details on facilitatorâ€™s request.
 Originator: Karen, Centre Administrator
 Comments: Filippo Sassi
 
@@ -151,3 +151,24 @@ Type: Functional.
 Rationale:  As the membership roll evolves through time, a mechanism is needed to remove inactive members for a variety of reasons: on request, inactivity, etc.
 Originator: Marion and Justin.
 Comments: Added by Tim Holmes-Mitra.  Although this requirement was not explicitly stated during interviews, is an implicit and necessary part of membership management.
+
+REQ-ID: 022
+Description: The product shall retrieve and list attendance of a workshop or course alongside the user information on demand.
+Type: Functional.
+Rationale: When using the current system, Marion is unable directly to see from her lists whether a user has attended a workshop or course before.
+Originator: Marion
+Comments: Added by Archie Campbell. This requirement is of an automated records system to replace a manual one that has been characterised as difficult to use and particularly incomplete in this area.
+
+REQ-ID: 023
+Description: The product should be able to charge a credit or debit card.
+Type: Functional.
+Rationale: When a member makes a reservation, or cancels a reservation, the relevant system should be notified of the need to take funds or make a refund of monies.
+Originator: Marion
+Comments: Added by Archie Campbell.
+
+REQ-ID: 024
+Description: The product shall schedule available staff members.
+Type: Functional.
+Rationale: Ensure that somebody is on hand to answer the phone.
+Originator: Karen
+Comments: Added by Archie Campbell. Whilst this may tread on Karen's toes and decay into technological requirements of a telephone system such as VoIP. It was a direct statement of Karen's.

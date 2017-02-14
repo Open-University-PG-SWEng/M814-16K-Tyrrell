@@ -1,4 +1,4 @@
-REQ-ID:
+﻿REQ-ID:
 Description:
 Type:
 Rationale:
@@ -165,3 +165,17 @@ Type: Functional.
 Rationale: During the day the users of the system should be able to pull reports. 
 Originator: Justin.
 Comments: Added by Ken Wilson. During the interview Justin stated the following, "system which can automatically produce management reports on a daily and weekly basis". This functional requirement covers that use-case. 
+
+REQ-ID: 024
+Description: The product shall notify attendees if there is a change in the workshop details
+Type: Functional
+Rationale: Workshop times and dates can change and attendees need to know in order to attend
+Originator: Karen
+Comments: Chris Freshman
+
+REQ-ID: 025
+Description: The product shall record the progress of volunteers
+Type: Functional
+Rationale: Volunteer progress is shared with the European Volunteer Service (EVS) to ensure they reach the required standard
+Originator: Marion
+Comments: Chris Freshman

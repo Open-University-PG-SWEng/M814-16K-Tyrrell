@@ -15,7 +15,7 @@ Comments: Filippo Sassi
 REQ-ID: 002
 Description: The product shall update existing workshops information.
 Type: Functional
-Rationale: System users must be able to update a workshop details on facilitator’s request.
+Rationale: System users must be able to update a workshop details on facilitatorâ€™s request.
 Originator: Karen, Centre Administrator
 Comments: Filippo Sassi
 
@@ -160,9 +160,8 @@ Originator: Marion.
 Comments: Added by Ken Wilson. During the interview Marion stated the following, "when taking bookings for workshops over the phone we should be able to access membership records to get the details of the attendee". This functional requirement covers that use-case.
  
 REQ-ID: 023
-Description: The product should allow the quick viewing of a member information.
+Description: The product should all for daily generation of reports. 
 Type: Functional.
-Rationale: As bookings are being taken the user of the system should be able to fetch a member information as fast as possible.   
+Rationale: During the day the users of the system should be able to pull reports. 
 Originator: Justin.
-Comments: Added by Ken Wilson. During the interview Justin stated the following, "system which can automatically produce management reports on a daily and weekly basis". This functional requirement covers that use-case.
- 
+Comments: Added by Ken Wilson. During the interview Justin stated the following, "system which can automatically produce management reports on a daily and weekly basis". This functional requirement covers that use-case. 

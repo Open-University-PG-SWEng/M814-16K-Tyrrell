@@ -125,7 +125,7 @@ Originator: Marion
 Comments: [Dini] The delivery of supplies essential to events means that events are subject to risk from external factors, such as failure for suppliers to deliver, delays in delivery or receipt of damaged goods. Keeping track of what has been ordered and what has been delivered and current stock of any locally held supplies is best handled by a robust system that avoids human error and provides timely and accurate information to allow for flexibility in fixing any unforeseen problems. The complexity of this aspect is viewed as a particuliar concern for the entire project, as it also involves a part of the process that cannot be readily automated: inspection of received goods to ensure they are to specification.
 
 REQ-ID: 018
-Description: The system shall track all business activities, people and resources
+Description: The system shall keep track of membership and reservations
 Type: Functional
 Rationale: Be able to efficiently manage memberships, reservations, payments and plan activities
 Originator: Justin and Marion 

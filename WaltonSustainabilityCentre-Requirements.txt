@@ -151,3 +151,18 @@ Type: Functional.
 Rationale:  As the membership roll evolves through time, a mechanism is needed to remove inactive members for a variety of reasons: on request, inactivity, etc.
 Originator: Marion and Justin.
 Comments: Added by Tim Holmes-Mitra.  Although this requirement was not explicitly stated during interviews, is an implicit and necessary part of membership management.
+
+REQ-ID: 022
+Description: The product should allow the quick access of a member's information.
+Type: Functional.
+Rationale: As bookings are being taken the user of the system should be able to fetch a member information as fast as possible.   
+Originator: Marion.
+Comments: Added by Ken Wilson. During the interview Marion stated the following, "when taking bookings for workshops over the phone we should be able to access membership records to get the details of the attendee". This functional requirement covers that use-case.
+ 
+REQ-ID: 023
+Description: The product should allow the quick viewing of a member information.
+Type: Functional.
+Rationale: As bookings are being taken the user of the system should be able to fetch a member information as fast as possible.   
+Originator: Justin.
+Comments: Added by Ken Wilson. During the interview Justin stated the following, "system which can automatically produce management reports on a daily and weekly basis". This functional requirement covers that use-case.
+ 

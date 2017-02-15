@@ -193,3 +193,25 @@ Type: Functional
 Rationale: To keep track of membership type, subscription expiry date, workshop or class records
 Originator: Administration team (Karen, Sandra, James)
 Comment:
+
+REQ-ID: 028
+Description: The product shall retrieve and list attendance of a workshop or course alongside the user information on demand.
+Type: Functional.
+Rationale: When using the current system, Marion is unable directly to see from her lists whether a user has attended a workshop or course before.
+Originator: Marion
+Comments: Added by Archie Campbell. This requirement is of an automated records system to replace a manual one that has been characterised as difficult to use and particularly incomplete in this area.
+
+REQ-ID: 029
+Description: The product should be able to charge a credit or debit card. 
+Type: Functional.
+Rationale: When a member makes a reservation, or cancels a reservation, the relevant system should be notified of the need to take funds or make a refund of monies.
+Originator: Marion
+Comments: Added by Archie Campbell.
+
+REQ-ID: 030
+Description: The product shall schedule available staff members.
+Type: Functional.
+Rationale: Ensure that somebody is on hand to answer the phone.
+Originator: Karen
+Comments: Added by Archie Campbell. Whilst this may tread on Karen's toes and decay into technological requirements of a telephone system such as VoIP. It was a direct statement of Karen's.
+

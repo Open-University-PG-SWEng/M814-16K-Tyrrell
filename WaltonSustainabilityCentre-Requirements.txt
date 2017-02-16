@@ -27,7 +27,7 @@ Originator: Karen Black, Centre Administrator
 Comments: REQ-ID 5 is duplicate but further information added and merged into this REQ.  
 
 REQ-ID: 004
-Description: The product shall determine if a member pays by direct debit and add 5% discount to the order.
+Description: The product shall determine if a member pays by direct debit and apply 5% discount to the order.
 Type: Functional
 Rationale: Members recieve a discount which should be automatically applied to all workshop bookings automatically.
 Originator: Karen Black, Centre Administrator

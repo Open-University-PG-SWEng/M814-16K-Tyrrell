@@ -229,3 +229,16 @@ Rationale: To retrive details of members.
 Originator: Marion 
 Comments: [TCornwall]  Added new functional requirement for WSC member details.
 
+REQ-ID: 033
+Description: The product shall determine whether the existing debit account has expired and require an update.
+Type: Functional
+Rationale: Debit cards have an expiry date thus for existing members, account details will need to be updated.
+Originator: Karen Black, Centre Administrator
+Comments: Added by Constantinos Morfakis
+
+REQ-ID: 034
+Description: The product shall save all payment receipts for later audit and report generation.
+Type: Functional
+Rationale: For accurate performance reports to be generated, a detailed record of incomes needs to be kept.
+Originator: Justin
+Comments: Added by Constantinos Morfakis

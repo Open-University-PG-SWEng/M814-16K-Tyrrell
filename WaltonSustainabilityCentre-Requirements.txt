@@ -152,13 +152,6 @@ Rationale:  As the membership roll evolves through time, a mechanism is needed t
 Originator: Marion and Justin.
 Comments: Added by Tim Holmes-Mitra.  Although this requirement was not explicitly stated during interviews, is an implicit and necessary part of membership management.
 
-REQ-ID: 022
-Description: The product should allow the quick access of a member's information.
-Type: Functional.
-Rationale: As bookings are being taken the user of the system should be able to fetch a member information as fast as possible.   
-Originator: Marion.
-Comments: Added by Ken Wilson. During the interview Marion stated the following, "when taking bookings for workshops over the phone we should be able to access membership records to get the details of the attendee". This functional requirement covers that use-case.
- 
 REQ-ID: 023
 Description: The product should all for daily generation of reports. 
 Type: Functional.

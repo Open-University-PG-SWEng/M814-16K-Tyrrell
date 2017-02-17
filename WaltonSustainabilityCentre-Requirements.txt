@@ -215,13 +215,6 @@ Rationale: Ensure that somebody is on hand to answer the phone.
 Originator: Karen
 Comments: Added by Archie Campbell. Whilst this may tread on Karen's toes and decay into technological requirements of a telephone system such as VoIP. It was a direct statement of Karen's.
 
-REQ-ID:031
-Description: The product checks workshop space availability  
-Type: Functional
-Rationale: To ensure that the workshop is not overbooked.
-Originator: Marion 
-Comments: [TCornwall] Added a new functional requirement for workshop availability.
-
 REQ-ID:032
 Description: The product shall list all Walton Sustainability members.   
 Type: Functional

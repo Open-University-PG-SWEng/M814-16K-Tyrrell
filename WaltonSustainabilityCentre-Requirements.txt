@@ -33,13 +33,6 @@ Rationale: Members receive a discount on workshops if they have a direct debit s
 Originator: Karen Black, Centre Administrator
 Comments:
 
-REQ-ID: 005
-Description: The product shall determine if a delegate is a member.
-Type: Functional
-Rationale: Members will recieve a discount on their order whereas non-members will pay full price.
-Originator: Karen Black, Centre Administrator
-Comments:
-
 REQ-ID: 006
 Description: The product shall determine if a members discount and apply it to the order.
 Type: Functional
@@ -89,26 +82,12 @@ Rationale: Potential attendees will become disaffected if the workshop applicati
 Originator: Karen Black
 Comments: Initial suggestion came during discussion with Marion, but Karen made a general summary of requests at the end of her discussion, and has authority as Centre Administrator.
 
-REQ-ID: 013
-Description: The product shall determine whether an identified user is a member.
-Type: Functional
-Rationale: In return for guaranteed subscription, members are entitled to discount on workshops.
-Originator: Karen Black
-Comments: Initial suggestion came during discussion with Marion, but Karen made a general summary of requests at the end of her discussion, and has authority as Centre Administrator.
-
 REQ-ID: 014
 Description: Possibility to obtain membership information based on unique identifier
 Type: Functional
 Rationale: Unique identification allows administrators track active/passive subscription
 Originator: Karen Black, Centre Administrator
 Comments: Clients might subscribe only for short time period and then reactivate their membership later. This setup allows tracking clients and keep old relations in place.
-
-REQ-ID: 015
-Description: Relation between Client and Membership Database
-Type: Functional
-Rationale: Not every client has to be a member
-Originator: Karen Black, Centre Administrator
-Comments: This link allows administrator to confirm membership ID with client name and date of birth for example.
 
 REQ-ID: 016
 Description: The product must to able to check event bookings for any planning issues.
@@ -172,13 +151,6 @@ Type: Functional
 Rationale: Volunteer progress is shared with the European Volunteer Service (EVS) to ensure they reach the required standard
 Originator: Marion
 Comments: Chris Freshman
-
-REQ-ID: 026 
-Description: The product shall check the member is registered on walton sustainability centre
-Type: Functional
-Rationale: To update modified member information for correct personnel
-Originator: Administration team (Karen, Sandra, James)
-Comment:
 
 REQ-ID: 027
 Description: The product shall records updated member information on the system

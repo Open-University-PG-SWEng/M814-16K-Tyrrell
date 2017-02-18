@@ -171,14 +171,14 @@ Description: The product shall notify attendees if there is a change in the work
 Type: Functional
 Rationale: Workshop times and dates can change and attendees need to know in order to attend
 Originator: Karen
-Comments: Chris Freshman
+Comments: Christopher Freshman 
 
 REQ-ID: 025
 Description: The product shall record the progress of volunteers
 Type: Functional
 Rationale: Volunteer progress is shared with the European Volunteer Service (EVS) to ensure they reach the required standard
 Originator: Marion
-Comments: Chris Freshman
+Comments: Christopher Freshman
 
 REQ-ID: 026 
 Description: The product shall check the member is registered on walton sustainability centre

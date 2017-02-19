@@ -1,4 +1,4 @@
-REQ-ID:
+﻿REQ-ID:
 Description:
 Type:
 Rationale:
@@ -15,7 +15,7 @@ Comments: Filippo Sassi
 REQ-ID: 002
 Description: The product shall update existing workshops information.
 Type: Functional
-Rationale: System users must be able to update a workshop details on facilitator�s request.
+Rationale: System users must be able to update a workshop details on facilitator’s request.
 Originator: Karen, Centre Administrator
 Comments: Filippo Sassi
 
@@ -125,7 +125,7 @@ Originator: Marion
 Comments: [Dini] The delivery of supplies essential to events means that events are subject to risk from external factors, such as failure for suppliers to deliver, delays in delivery or receipt of damaged goods. Keeping track of what has been ordered and what has been delivered and current stock of any locally held supplies is best handled by a robust system that avoids human error and provides timely and accurate information to allow for flexibility in fixing any unforeseen problems. The complexity of this aspect is viewed as a particuliar concern for the entire project, as it also involves a part of the process that cannot be readily automated: inspection of received goods to ensure they are to specification.
 
 REQ-ID: 018
-Description: The system shall track all business activities, people and resources
+Description: The system shall keep track of membership and reservations
 Type: Functional
 Rationale: Be able to efficiently manage memberships, reservations, payments and plan activities
 Originator: Justin and Marion 
@@ -138,3 +138,107 @@ Rationale: Customers can pay for the services received and The Centre can pay th
 Originator: Justin and Marion
 Comments: David Perez
 
+REQ-ID: 020
+Description: The product shall handle the creation of new memberships.
+Type: Functional
+Rationale: When non-members visit the centre, a mechanism is needed to add interested individuals to the membership roll. 
+Originator: Marion and Justin.
+Comments: Added by Tim Holmes-Mitra.  Although this requirement was not explicitly stated during interviews, is an implicit and necessary part of membership management.
+
+REQ-ID: 021
+Description: The product shall handle the deletion of existing memberships.
+Type: Functional.
+Rationale:  As the membership roll evolves through time, a mechanism is needed to remove inactive members for a variety of reasons: on request, inactivity, etc.
+Originator: Marion and Justin.
+Comments: Added by Tim Holmes-Mitra.  Although this requirement was not explicitly stated during interviews, is an implicit and necessary part of membership management.
+
+REQ-ID: 022
+Description: The product should allow the quick access of a member's information.
+Type: Functional.
+Rationale: As bookings are being taken the user of the system should be able to fetch a member information as fast as possible.   
+Originator: Marion.
+Comments: Added by Ken Wilson. During the interview Marion stated the following, "when taking bookings for workshops over the phone we should be able to access membership records to get the details of the attendee". This functional requirement covers that use-case.
+ 
+REQ-ID: 023
+Description: The product should all for daily generation of reports. 
+Type: Functional.
+Rationale: During the day the users of the system should be able to pull reports. 
+Originator: Justin.
+Comments: Added by Ken Wilson. During the interview Justin stated the following, "system which can automatically produce management reports on a daily and weekly basis". This functional requirement covers that use-case. 
+
+REQ-ID: 024
+Description: The product shall notify attendees if there is a change in the workshop details
+Type: Functional
+Rationale: Workshop times and dates can change and attendees need to know in order to attend
+Originator: Karen
+Comments: Christopher Freshman 
+
+REQ-ID: 025
+Description: The product shall record the progress of volunteers
+Type: Functional
+Rationale: Volunteer progress is shared with the European Volunteer Service (EVS) to ensure they reach the required standard
+Originator: Marion
+Comments: Christopher Freshman
+
+REQ-ID: 026 
+Description: The product shall check the member is registered on walton sustainability centre
+Type: Functional
+Rationale: To update modified member information for correct personnel
+Originator: Administration team (Karen, Sandra, James)
+Comment:
+
+REQ-ID: 027
+Description: The product shall records updated member information on the system
+Type: Functional
+Rationale: To keep track of membership type, subscription expiry date, workshop or class records
+Originator: Administration team (Karen, Sandra, James)
+Comment:
+
+REQ-ID: 028
+Description: The product shall retrieve and list attendance of a workshop or course alongside the user information on demand.
+Type: Functional.
+Rationale: When using the current system, Marion is unable directly to see from her lists whether a user has attended a workshop or course before.
+Originator: Marion
+Comments: Added by Archie Campbell. This requirement is of an automated records system to replace a manual one that has been characterised as difficult to use and particularly incomplete in this area.
+
+REQ-ID: 029
+Description: The product should be able to charge a credit or debit card. 
+Type: Functional.
+Rationale: When a member makes a reservation, or cancels a reservation, the relevant system should be notified of the need to take funds or make a refund of monies.
+Originator: Marion
+Comments: Added by Archie Campbell.
+
+REQ-ID: 030
+Description: The product shall schedule available staff members.
+Type: Functional.
+Rationale: Ensure that somebody is on hand to answer the phone.
+Originator: Karen
+Comments: Added by Archie Campbell. Whilst this may tread on Karen's toes and decay into technological requirements of a telephone system such as VoIP. It was a direct statement of Karen's.
+
+REQ-ID:031
+Description: The product checks workshop space availability  
+Type: Functional
+Rationale: To ensure that the workshop is not overbooked.
+Originator: Marion 
+Comments: [TCornwall] Added a new functional requirement for workshop availability.
+
+REQ-ID:032
+Description: The product shall list all Walton Sustainability members.   
+Type: Functional
+Rationale: To retrive details of members. 
+Originator: Marion 
+Comments: [TCornwall]  Added new functional requirement for WSC member details.
+
+REQ-ID: 033
+Description: The product shall determine whether the existing debit account has expired and require an update.
+Type: Functional
+Rationale: Debit cards have an expiry date thus for existing members, account details will need to be updated.
+Originator: Karen Black, Centre Administrator
+Comments: Added by Constantinos Morfakis
+
+REQ-ID: 034
+Description: The product shall save all payment receipts for later audit and report generation.
+Type: Functional
+Rationale: For accurate performance reports to be generated, a detailed record of incomes needs to be kept.
+Originator: Justin
+Comments: Added by Constantinos Morfakis

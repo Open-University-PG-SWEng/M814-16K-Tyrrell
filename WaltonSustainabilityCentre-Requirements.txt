@@ -33,12 +33,6 @@ Rationale: Members receive a discount on workshops if they have a direct debit s
 Originator: Karen Black, Centre Administrator
 Comments:
 
-REQ-ID: 005
-Description: The product shall determine if a delegate is a member.
-Type: Functional
-Rationale: Members will recieve a discount on their order whereas non-members will pay full price.
-Originator: Karen Black, Centre Administrator
-Comments:
 
 REQ-ID: 006
 Description: The product shall determine if a members discount and apply it to the order.
@@ -82,40 +76,12 @@ Rationale: So that staff and facilitators know what will be available
 Originator: Karen
 Comments: AGilmour
 
-REQ-ID: 012
-Description: The product shall determine the availability of places for a specified workshop.
-Type: Functional
-Rationale: Potential attendees will become disaffected if the workshop application process cannot calculate the number of available places accurately.  It is in the interest of Walton Sustainability Centre that classes are as well-attended as possible.
-Originator: Karen Black
-Comments: Initial suggestion came during discussion with Marion, but Karen made a general summary of requests at the end of her discussion, and has authority as Centre Administrator.
-
-REQ-ID: 013
-Description: The product shall determine whether an identified user is a member.
-Type: Functional
-Rationale: In return for guaranteed subscription, members are entitled to discount on workshops.
-Originator: Karen Black
-Comments: Initial suggestion came during discussion with Marion, but Karen made a general summary of requests at the end of her discussion, and has authority as Centre Administrator.
-
-REQ-ID: 014
-Description: Possibility to obtain membership information based on unique identifier
-Type: Functional
-Rationale: Unique identification allows administrators track active/passive subscription
-Originator: Karen Black, Centre Administrator
-Comments: Clients might subscribe only for short time period and then reactivate their membership later. This setup allows tracking clients and keep old relations in place.
-
 REQ-ID: 015
 Description: Relation between Client and Membership Database
 Type: Functional
 Rationale: Not every client has to be a member
 Originator: Karen Black, Centre Administrator
 Comments: This link allows administrator to confirm membership ID with client name and date of birth for example.
-
-REQ-ID: 016
-Description: The product must to able to check event bookings for any planning issues.
-Type: Functional
-Rationale: Planning and execution of events has many dependencies that must be tracked and problems reported in good time for corrective action.
-Originator: Karen, Marion
-Comments: [Dini] There are a lot of inputs to this, currently identified are: required supplies, current stock, ordered supplies, supply lead times, availablility of centre facilities, availability of staff/participants.
 
 REQ-ID: 017
 Description: The product must help track the payment for and receiving of supplies and manage risk of delivery failures.
@@ -214,13 +180,6 @@ Type: Functional.
 Rationale: Ensure that somebody is on hand to answer the phone.
 Originator: Karen
 Comments: Added by Archie Campbell. Whilst this may tread on Karen's toes and decay into technological requirements of a telephone system such as VoIP. It was a direct statement of Karen's.
-
-REQ-ID:031
-Description: The product checks workshop space availability  
-Type: Functional
-Rationale: To ensure that the workshop is not overbooked.
-Originator: Marion 
-Comments: [TCornwall] Added a new functional requirement for workshop availability.
 
 REQ-ID:032
 Description: The product shall list all Walton Sustainability members.   

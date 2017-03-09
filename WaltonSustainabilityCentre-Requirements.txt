@@ -1,21 +1,14 @@
-﻿REQ-ID:
-Description:
-Type:
-Rationale:
-Originator:
-Comments: [M814-ModuleChair] Copy this template below to add new requirements.
-
-REQ-ID: 001
+﻿REQ-ID: 001
 Description: The product shall record workshop information.
 Type: Functional
-Rationale: The information for each workshop must be available to the system users.
+Rationale: The information for each workshop must be available to system users, enabling staff to deliver efficient customer service.
 Originator: Karen, Centre Administrator
 Comments: Filippo Sassi
 
 REQ-ID: 002
-Description: The product shall update existing workshops information.
+Description: The product shall accept updates to existing workshop information.
 Type: Functional
-Rationale: System users must be able to update a workshop details on facilitator’s request.
+Rationale: System users must be able to update workshop details, ensuring efficient customer service.
 Originator: Karen, Centre Administrator
 Comments: Filippo Sassi
 

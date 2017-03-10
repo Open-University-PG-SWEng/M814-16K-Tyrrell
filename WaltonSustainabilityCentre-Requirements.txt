@@ -20,9 +20,9 @@ Originator: Karen, Centre Administrator
 Comments: Filippo Sassi
 
 REQ-ID: 004
-Description: The product shall determine if a member has a direct debit set up.
+Description: The product shall determine whether a member has a direct debit agreement with the centre.
 Type: Functional
-Rationale: Customers need to be charged the correct price for workshops; they receive a discount if they have a direct debit set up.
+Rationale: Customers need to be charged the correct price for workshops; they receive a discount if they have a direct debit set up. Direct debits reduce centre overheads, and mean that an individual who wishes to cease membership must actively cancel the direct debit.
 Originator: Karen Black, Centre Administrator
 Comments:
 

@@ -8,7 +8,7 @@ Comments: Filippo Sassi
 REQ-ID: 002
 Description: The product shall accept updates to existing workshop information.
 Type: Functional
-Rationale: System users must be able to update workshop details, ensuring efficient customer service.
+Rationale: System users must be able to update workshop details, ensuring data accuracy while maintaining efficient customer service.
 Originator: Karen, Centre Administrator
 Comments: Filippo Sassi
 

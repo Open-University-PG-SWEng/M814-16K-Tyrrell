@@ -1,0 +1,9 @@
+REQ-ID: 023
+Description: Product shall allow generate reports only to users with correct permissions assigned.
+Type: Security
+Rationale: Product will take care of multiple user types - authenticated user, user with membership, volunteers, administrators etc. We need to make sure, that only users with certain permission can generate reports.
+Fit Criterion: Register multiple user types, with different types of permissions assigned and try to generate reports. Product should disallow this task.
+Originator: Karen Black, Centre Administrator 
+Comments: [TR] Add comments below, making sure to include your initials in [] at the start.
+
+

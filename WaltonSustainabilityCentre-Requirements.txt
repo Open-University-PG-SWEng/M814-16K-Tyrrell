@@ -125,9 +125,9 @@ Originator: Marion.
 Comments: Added by Ken Wilson. During the interview Marion stated the following, "when taking bookings for workshops over the phone we should be able to access membership records to get the details of the attendee". This functional requirement covers that use-case.
  
 REQ-ID: 023
-Description: The product shall be able to generate daily reports.
+Description: The product shall be able to generate reports.
 Type: Functional.
-Rationale: During the day the users of the system should be able to pull reports. 
+Rationale: System users should be able to pull customisable reports. (Specify time period, fields, etc.)
 Originator: Justin.
 Comments: Added by Ken Wilson. During the interview Justin stated the following, "system which can automatically produce management reports on a daily and weekly basis". This functional requirement covers that use-case. 
 

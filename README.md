@@ -30,7 +30,7 @@ The proposed format is:
 
 ### TMA03/Q2a FR Individual Assignment
 - David Jakes: 012
-- Gavin Sore:
+- Gavin Sore: 024
 - Tony Cornwall: 032
 - Tim Holmes-Mitra : 020
 - David Perez : 019

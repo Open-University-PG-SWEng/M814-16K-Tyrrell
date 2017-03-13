@@ -33,7 +33,7 @@ The proposed format is:
 - Gavin Sore:
 - Tony Cornwall: 032
 - Tim Holmes-Mitra : 020
-- [Name] : [REQ-ID]
+- David Perez : 019
 - [Name] : [REQ-ID]
 - [Name] : [REQ-ID]
 - [Name] : [REQ-ID]

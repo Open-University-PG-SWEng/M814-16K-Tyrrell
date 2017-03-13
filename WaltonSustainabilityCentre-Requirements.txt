@@ -19,13 +19,6 @@ Rationale: Customers need to be charged the correct price for workshops; they re
 Originator: Karen Black, Centre Administrator
 Comments:
 
-REQ-ID: 007
-Description: The product shall determine number of available places prior to booking.
-Type: Functional
-Rationale: Customers can only be booked onto workshops that have space availablity.
-Originator: Karen Black, Centre Administrator
-Comments:
-
 REQ-ID: 008
 Description: The product shall be updated to record that a workshop facilitator or lecturer has been paid
 Type: Functional
@@ -57,9 +50,9 @@ Comments: AGilmour
 REQ-ID: 012
 Description: The product shall determine the availability of places for a specified workshop.
 Type: Functional
-Rationale: Potential attendees will become disaffected if the workshop application process cannot calculate the number of available places accurately.  It is in the interest of Walton Sustainability Centre that classes are as well-attended as possible.
+Rationale: Customers can only be booked onto workshops with free space. They may become disaffected and stop attending if they cannot be reliably be assigned workshop places, negatively impacting WIMS' revenue.
 Originator: Karen Black
-Comments: Initial suggestion came during discussion with Marion, but Karen made a general summary of requests at the end of her discussion, and has authority as Centre Administrator.
+Comments: Initial suggestion came during discussion with Marion. Karen made a general summary of requests at the end of her discussion, and has authority as Centre Administrator.
 
 REQ-ID: 013
 Description: The product shall determine whether an identified user is a member.

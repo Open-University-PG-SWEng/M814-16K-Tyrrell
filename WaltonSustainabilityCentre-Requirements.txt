@@ -41,9 +41,9 @@ Originator: Karen Black, Centre Administrator
 Comments: GS
 
 REQ-ID: 010
-Description: The product shall identify additional equipment requirements
+Description: The product shall predict stock levels of regularly used resources, and notify staff when re-stocking is required.
 Type:Functional
-Rationale: To assess whether equipment needs to be ordered or reserved
+Rationale: To assess whether resources need to be ordered, ensuring an efficient service to customers.
 Originator: Karen
 Comments: AGilmour
 

@@ -6,4 +6,6 @@ Fit Criterion: A bold red message should be displayed if conflicts are found and
 Originator: James Gallagher
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 
+[David Perez] Fit criterion is spot on but I'm not 100% sure whether it can be classified as NFR rather than FR. 
+
 

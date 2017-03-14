@@ -7,4 +7,7 @@ Fit Criterion: The management sponsors shall certify that the notification appea
 Originator: Karen Black, Centre Administrator
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 
+[David Perez] It is an important requirement but the fit criterion seems to me more like a new requirement than a quality 
+             attribute or measure of usuability/apperance of the product.
+
 

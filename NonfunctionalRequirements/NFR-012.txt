@@ -1,0 +1,17 @@
+REQ-ID: 12
+Description: The product shall render discovery of workshop place availability easy for centre staff and the general public.
+Type: Usability and humanity (11)
+Rationale: The rationale for functional requirement REQ-ID 12 relates to the continued viability of the business, and its potential expansion.  In support of the latter, the clients wish to
+											enable a more efficient use of facilities
+											reduce the (manual) administrative work
+											reduce the numbers of errors in facility and workshop bookings.
+The product must be easy to use by centre staff.
+Currently, to book a workshop place, a member of the public telephones the centre, and, having checked place availability, the staff-member who takes the call makes the booking.  In a future business use case, a member of the general public might have responsibility for making their own booking.  Therefore this requirement applies to all types of user. 
+Fit Criterion: Having identified a workshop of interest, 9 out of 10 of users shall perform the necessary steps to determine place availability for that workshop within 15 seconds.
+Originator: Marion
+Analyst's comment: values included in the fit criterion are subject to adjustment after usability testing (Nielsen 2001)
+Reference: Nielsen, J (2001) Usability Metrics [online].  Available at https://www.nngroup.com/articles/usability-metrics/ (Accessed 14 March 2017)
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+
+
+

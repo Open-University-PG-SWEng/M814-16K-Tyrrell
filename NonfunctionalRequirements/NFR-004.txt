@@ -7,3 +7,5 @@ Originator: Karen Black, Centre Administrator
 Comments: [ATP] Supporting material can be found online at: https://www.gov.uk/data-protection/the-data-protection-act
 
 [James Gallagher] I think your fit criteria is spot on. This is very much within the jurisdiction of the legal team/representation and only they, as domain experts, can confirm whether the product complies. 
+
+[David Jakes] Looks good to me.  I suspect any card related legislation or standard (eg PCI DSS) would be inapplicable because the actual transaction will be conducted by an adjacent system. 

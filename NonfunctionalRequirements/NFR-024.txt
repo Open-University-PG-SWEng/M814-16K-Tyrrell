@@ -1,0 +1,10 @@
+REQ-ID: 024
+Description: The product shall create a professional looking notification email
+Type: Non-functional requirement - type 10
+Rationale: The notification that is produced should comply with the organisational branding, promoting the
+centres professional approach while also ensuring the message's authenticity.
+Fit Criterion: The management sponsors shall certify that the notification appearance is in line the organisation's branding.
+Originator: Karen Black, Centre Administrator
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+
+

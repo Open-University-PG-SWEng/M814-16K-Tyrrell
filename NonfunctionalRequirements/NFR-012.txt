@@ -13,5 +13,4 @@ Analyst's comment: values included in the fit criterion are subject to adjustmen
 Reference: Nielsen, J (2001) Usability Metrics [online].  Available at https://www.nngroup.com/articles/usability-metrics/ (Accessed 14 March 2017)
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 
-
-
+[Gavin Sore] No detail has been given on when the NFR will be tested, is it to a test group if so who are in the test group, or is it all users over a given period? I believe the gold plating relating to future access of the general public is mudding the waters here.

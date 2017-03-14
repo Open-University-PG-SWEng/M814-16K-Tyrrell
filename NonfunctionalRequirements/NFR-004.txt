@@ -1,7 +1,9 @@
-REQ-ID: NFR-004
+﻿REQ-ID: NFR-004
 Description: The product shall comply with the UK Data Protection Act
 Type: 17, legal
 Rationale: Bank details are sensitive information. Data can only be stored when it serves an essential purpose and must only be retained as long as necessary. If stored, it must be access controlled. 
 Fit Criterion: The company’s legal representation shall assess the product and confirm that it complies with UK data protection legislation.
 Originator: Karen Black, Centre Administrator
 Comments: [ATP] Supporting material can be found online at: https://www.gov.uk/data-protection/the-data-protection-act
+
+[James Gallagher] I think your fit criteria is spot on. This is very much within the jurisdiction of the legal team/representation and only they, as domain experts, can confirm whether the product complies. 

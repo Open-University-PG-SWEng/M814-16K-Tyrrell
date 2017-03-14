@@ -6,4 +6,6 @@ Fit Criterion: Register multiple user types, with different types of permissions
 Originator: Karen Black, Centre Administrator 
 Comments: [TR] Add comments below, making sure to include your initials in [] at the start.
 
+[James Gallagher] It might be worth having acceptance criteria satisfying both an accepted as well as a rejected request. When you say 'multiple user types', you could be more verbose. For example, administrator, manager and finance user types should have access to the report. Anonymous, sales and reception users should receive security alert. It may also be worthwhile to log all failed attempts.
+
 

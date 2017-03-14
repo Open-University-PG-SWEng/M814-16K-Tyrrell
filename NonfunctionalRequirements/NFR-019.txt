@@ -1,0 +1,8 @@
+REQ-ID: NFR-019
+Description: The product shall meet data security compliance standards, such as PCI-DSS.
+Type: 17, Legal
+Rationale: This ensures that a cardholder’s data is protected and maintained through a secure network. PCI-DSS is the industry standard.
+Fit Criterion 1: As the WIMS is handling smaller volumes, a Self-Assessment Questionnaire (SAQ) document is required to be completed each and every year and submit to the transaction Bank.
+Fit Criterion 2: Store digital recordings that include sensitive card data won't be able to be queried
+Originator: Justin and Marion
+Comments: [David Perez] The actual transaction will be conducted by an adjacent system but the billing information collected has to meet the interface specs to the adjacent system. 

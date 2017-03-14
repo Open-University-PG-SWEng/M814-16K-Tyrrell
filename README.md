@@ -35,7 +35,7 @@ The proposed format is:
 - Tim Holmes-Mitra : 020
 - David Perez : 019
 - Adrian Potter: 004
-- [Name] : [REQ-ID]
+- James Gallagher : 016
 - [Name] : [REQ-ID]
 - [Name] : [REQ-ID]
 - [Name] : [REQ-ID]

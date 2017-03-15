@@ -8,4 +8,4 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 
 [David Perez] Fit criterion is spot on but I'm not 100% sure whether it can be classified as NFR rather than FR. 
 
-
+[Adrian Potter] The fit criterion should not define the solution to be implemented, only how it can be verified. As David says, the requirement is currently functional rather than non-functional. The current requirement would lead to a product that is inaccessible to colour blind users.

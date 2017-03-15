@@ -2,7 +2,7 @@
 Description: The product shall comply with the UK Data Protection Act
 Type: 17, legal
 Rationale: Bank details are sensitive information. Data can only be stored when it serves an essential purpose and must only be retained as long as necessary. If stored, it must be access controlled. 
-Fit Criterion: The company’s legal representation shall assess the product and confirm that it complies with UK data protection legislation.
+Fit Criterion: The company’s legal representation shall assess the product and provide written confirmation that it complies with UK data protection legislation. The organisation shall be registered with the Information Commissioner's office.
 Originator: Karen Black, Centre Administrator
 Comments: [ATP] Supporting material can be found online at: https://www.gov.uk/data-protection/the-data-protection-act
 
@@ -10,5 +10,4 @@ Comments: [ATP] Supporting material can be found online at: https://www.gov.uk/d
 
 [David Jakes] Looks good to me.  I suspect any card related legislation or standard (eg PCI DSS) would be inapplicable because the actual transaction will be conducted by an adjacent system. 
 
-[David Perez] The NFR is inline with the one I have added, in this case more foucs on payment PCI DSS standards and data security. Regarding the fit criterion, I'm not sure whether it should be more specific
-              about how the NFR should be assessed. I like to see a more traceable fit criterion.
+[David Perez] The NFR is inline with the one I have added, in this case more foucs on payment PCI DSS standards and data security. Regarding the fit criterion, I'm not sure whether it should be more specific about how the NFR should be assessed. I like to see a more traceable fit criterion.

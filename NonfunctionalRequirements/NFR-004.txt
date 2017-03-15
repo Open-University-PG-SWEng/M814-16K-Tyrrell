@@ -11,3 +11,5 @@ Comments: [ATP] Supporting material can be found online at: https://www.gov.uk/d
 [David Jakes] Looks good to me.  I suspect any card related legislation or standard (eg PCI DSS) would be inapplicable because the actual transaction will be conducted by an adjacent system. 
 
 [David Perez] The NFR is inline with the one I have added, in this case more foucs on payment PCI DSS standards and data security. Regarding the fit criterion, I'm not sure whether it should be more specific about how the NFR should be assessed. I like to see a more traceable fit criterion.
+
+[Adrian Potter] Thanks for the comments, I've updated the fit criterion to give a bit more tracability.

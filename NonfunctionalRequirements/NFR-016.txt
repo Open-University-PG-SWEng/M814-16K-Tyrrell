@@ -1,0 +1,11 @@
+REQ-ID: 016
+Description: This product should return a clear colour coded message showing if (or not) conflict exsists. 
+Type: Usability
+Rationale: To ensure that when conflicts or issues are found, it is clear to the user and the conflict can be investigated.   
+Fit Criterion: A bold red message should be displayed if conflicts are found and a bold green message if no conflict is found. 
+Originator: James Gallagher
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+
+[David Perez] Fit criterion is spot on but I'm not 100% sure whether it can be classified as NFR rather than FR. 
+
+[Adrian Potter] The fit criterion should not define the solution to be implemented, only how it can be verified. As David says, the requirement is currently functional rather than non-functional. The current requirement would lead to a product that is inaccessible to colour blind users.

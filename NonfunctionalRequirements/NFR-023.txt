@@ -1,0 +1,13 @@
+REQ-ID: 023
+Description: Product shall allow generate reports only to users with correct permissions assigned.
+Type: Security
+Rationale: Product will take care of multiple user types - authenticated user, user with membership, volunteers, administrators etc. We need to make sure, that only users with certain permission can generate reports.
+Fit Criterion: Register multiple user types, with different types of permissions assigned and try to generate reports. Product should disallow this task.
+Originator: Karen Black, Centre Administrator 
+Comments: [TR] Add comments below, making sure to include your initials in [] at the start.
+
+[James Gallagher] It might be worth having acceptance criteria satisfying both an accepted as well as a rejected request. When you say 'multiple user types', you could be more verbose. For example, administrator, manager and finance user types should have access to the report. Anonymous, sales and reception users should receive security alert. It may also be worthwhile to log all failed attempts.
+
+[Adrian Potter] As James suggests, the fit criterion should be specific and mesaurable. In its current form, it would be satisfied if regular users could create reports but administrators couldn't.
+
+

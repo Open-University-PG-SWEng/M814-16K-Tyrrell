@@ -1,0 +1,7 @@
+REQ-ID: 018
+Description: The product shall be efficient and easy to use.
+Type: Usability (check this)
+Rationale: To ensure user adoption of the system
+Fit Criterion: Users should be able to successfully access membership, reservations, payments and plan activites on their first attempt. A request for a record should return a response in less than 0.5s.
+Originator: Justin and Marion
+Comments: [Chris Freshman] Add comments below, making sure to include your initials in [] at the start.

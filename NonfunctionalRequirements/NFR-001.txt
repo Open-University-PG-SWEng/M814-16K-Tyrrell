@@ -1,0 +1,7 @@
+﻿REQ-ID: 001
+Description: Recording workshop information shall be easy.
+Type: Non-functional requirement – Usability and humanity (11)
+Rationale: aim of the new system is to integrate and simplify current business activities as entering information for a new workshop. It follows the system must provide this functionality so that its users can easily do that. 
+Fit Criterion: Nine out of ten times the system users shall be able to successfully record information for a new workshop in less than 5 minutes with an accuracy of the 90%.
+Originator: Karen Black, Centre Administrator
+Comments: [Filippo Sassi] 

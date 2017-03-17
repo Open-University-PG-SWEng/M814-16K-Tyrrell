@@ -10,4 +10,7 @@ Comments: [TR] Add comments below, making sure to include your initials in [] at
 
 [Adrian Potter] As James suggests, the fit criterion should be specific and mesaurable. In its current form, it would be satisfied if regular users could create reports but administrators couldn't.
 
+[David Perez] In my opinion the description and the fit criterion are misaligned because the fit criterion implies to test a system level solution rather than testing directly a invalid permission access. 
+              Perhaps the fit criterion should be rephrase in order to specify that the generation of reportes is not allowed rather than being reactive to it.
+
 

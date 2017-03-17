@@ -15,3 +15,5 @@ Does 'accuracy' in the final clause refer to
 	3 On the other hand, if an example of inaccurate information were something like a system user inputting a workshop title of 'Recycling', only to discover later that the facilitator is planning one called 'Sustainability', clearly a mechanism for easy updating needs to be in place, which might be measured against safety and possibly efficiency.  Obviously, this last requirement would be more about updating than entering information in the first place; not the context here.  Again, there would need to be a separate non-functional requirement.
 Reference
 Sharp, H, Rogers, Y, Preece, J (2007 p20) Interaction Design: Beyond Human-Computer Interaction Chichester: Wiley 
+
+[David Perez] It is a very traceable and measurable fit criterion. As David Jakes pointed out, the concept of accuracy on this concept might need further clarification. 

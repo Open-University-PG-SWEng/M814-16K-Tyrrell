@@ -19,3 +19,7 @@ I think measuring the response time is really a performance non-functional requi
 References
 Nielsen, J (2001) Usability Metrics [online].  Available at https://www.nngroup.com/articles/usability-metrics/ (Accessed 14 March 2017)
 Sharp, H, Rogers, Y, Preece, J (2007 p20) Interaction Design: Beyond Human-Computer Interaction Chichester: Wiley 
+
+[David Perez] The fit criterion provided is only measurable in terms of reaction time to an invoked command or operation. It doesn't provide traceability regarding usuability. Furthermore,
+              although the test feature would provide a clear indication of favorable user experience, it would not reflect fully the concept of efficiency. For example, different users might 
+              have different needs and there will be a variety of users with different skills. How fast they will learn to use the product efficiently doesn't necessarily benefit of fast time response.

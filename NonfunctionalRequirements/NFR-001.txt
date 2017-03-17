@@ -16,4 +16,6 @@ Does 'accuracy' in the final clause refer to
 Reference
 Sharp, H, Rogers, Y, Preece, J (2007 p20) Interaction Design: Beyond Human-Computer Interaction Chichester: Wiley 
 
+[David Perez] It is a very traceable and measurable fit criterion. As David Jakes pointed out, the concept of accuracy on this concept might need further clarification. 
+
 [Gavin Sore] Is the requirement 'Easy to Learn' or 'Easy to Use'? As the metric differs for each.  A task that takes longer than 5 minutes can still be considered easy, and therefore the time aspect looks arbitrary. As an example, what if the user has to write a 3000 word description of the workshop because it is later used when publishing the workshop details.  Just because it took a long time to type doesn't mean the system wasn't 'easy'. 

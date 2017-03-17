@@ -1,6 +1,6 @@
 REQ-ID: 034
 Description: The payment receipt records kept by the system shall be up to date.
-Type: Non-functional requirement 
+Type: Performance
 Rationale: Since reports will need to be generated on a daily basis, the records of payments receipts need to be
             updated frequently so that the daily report will contain the previous day's complete set of payments. 
 Fit Criterion: Any new payments made, are available within the receipt payments collection within 10 minutes maximum. 

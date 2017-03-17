@@ -12,3 +12,8 @@ Comments: [TR] Add comments below, making sure to include your initials in [] at
 
 [David Perez] In my opinion the description and the fit criterion are misaligned because the fit criterion implies to test a system level solution rather than testing directly a invalid permission access. 
  +              Perhaps the fit criterion should be rephrase in order to specify that the generation of reportes is not allowed rather than being reactive to it.
+
+[Constantinos Morfakis] To add to David Perez's I would suggest an ammendment to the current Fit Criterion to something
+                        like:
+                       "Out of 100 successful report generations, none will have originated from a user without the proper permissions"
+                       

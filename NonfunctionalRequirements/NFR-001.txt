@@ -15,3 +15,5 @@ Does 'accuracy' in the final clause refer to
 	3 On the other hand, if an example of inaccurate information were something like a system user inputting a workshop title of 'Recycling', only to discover later that the facilitator is planning one called 'Sustainability', clearly a mechanism for easy updating needs to be in place, which might be measured against safety and possibly efficiency.  Obviously, this last requirement would be more about updating than entering information in the first place; not the context here.  Again, there would need to be a separate non-functional requirement.
 Reference
 Sharp, H, Rogers, Y, Preece, J (2007 p20) Interaction Design: Beyond Human-Computer Interaction Chichester: Wiley 
+
+[Gavin Sore] Is the requirement 'Easy to Learn' or 'Easy to Use'? As the metric differs for each.  A task that takes longer than 5 minutes can still be considered easy, and therefore the time aspect looks arbitrary. As an example, what if the user has to write a 3000 word description of the workshop because it is later used when publishing the workshop details.  Just because it took a long time to type doesn't mean the system wasn't 'easy'. 

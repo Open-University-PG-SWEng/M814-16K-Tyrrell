@@ -23,3 +23,9 @@ Sharp, H, Rogers, Y, Preece, J (2007 p20) Interaction Design: Beyond Human-Compu
 [David Perez] The fit criterion provided is only measurable in terms of reaction time to an invoked command or operation. It doesn't provide traceability regarding usuability. Furthermore,
  +              although the test feature would provide a clear indication of favorable user experience, it would not reflect fully the concept of efficiency. For example, different users might 
  +              have different needs and there will be a variety of users with different skills. How fast they will learn to use the product efficiently doesn't necessarily benefit of fast time response.
+ 
+[Constantinos Morfakis] I believe that for this specific project ease of use should reflect the stakeholders' need of tasks being
+                        accomplishable from different personnel who have no clearly-assigned job positions (since they be asked to
+                        complete a different task than usual as a result of another employee being absent, etc.)
+                        Therefore I would suggest fit criterion of something along the lines of:
+                        "75% of users should be able to accomplish their task successfully after 30 minutes of training and with no further assistance"

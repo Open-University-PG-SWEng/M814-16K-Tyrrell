@@ -1,0 +1,7 @@
+REQ-ID: 020
+Description: The product shall comply with the Data Protection Act of 1998 as amended.
+Type: Non-functional requirement -- Legal (Type 17)
+Rationale: Whenever a new membership is created the product will gather and save personally identifiable information.  We are legally required to safeguard that information in accordance with the Data Protection Act of 1998. Failure to responsibility safeguard customer information could result in lost customer confidence, monetary fines from the ICO, or fewer customers becoming members.
+Fit Criterion: When the Centre's lawyers are satisfied that the product complies with the criteria specified in the Data Protection Act of 1998, specifically Part II.
+Originator: Tim Holmes-Mitra
+Comments:

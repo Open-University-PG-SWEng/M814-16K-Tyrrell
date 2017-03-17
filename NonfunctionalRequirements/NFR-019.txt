@@ -1,11 +1,14 @@
 REQ-ID: NFR-019
 Description: The product shall meet data security compliance standards, such as PCI-DSS.
 Type: 17, Legal
-Rationale: This ensures that a cardholder’s data is protected and maintained through a secure network. PCI-DSS is the industry standard.
+Rationale: This ensures that a cardholderï¿½s data is protected and maintained through a secure network. PCI-DSS is the industry standard.
 Fit Criterion 1: As the WIMS is handling smaller volumes, a Self-Assessment Questionnaire (SAQ) document is required to be completed each and every year and submit to the transaction Bank.
 Fit Criterion 2: Store digital recordings that include sensitive card data won't be able to be queried
 Originator: Justin and Marion
-Comments: [David Perez] The actual transaction will be conducted by an adjacent system but the billing information collected has to meet the interface specs to the adjacent system. 
+Comments: [David Perez] The actual transaction will be conducted by an adjacent system but the billing information collected has to meet the interface specs to the adjacent system.
+
+[Tim Holmes-Mitra] MRP page 295 suggests that for legal NFRs the fit criteria should include a review by the company's lawyers. In this instance, it would be useful to have the lawyers discuss with the software company to ensure data is protected before it's handed off to the third party as David suggests.  Additionally, it might also include confirmation that the third party adheres to UK data security standards.
+ 
 [David Jakes] I have re-read 'Walton Sustainability Centre - discussion' from TMA02.  I had originally assumed that a third party would be responsible for card transactions, as per your comment, but I am no longer clear that that is the case.  The centre does seem to be handling card transactions.  It is only the accounts package that is clearly out of scope.  I suspect that we should have asked the client (aka Sebastian on the forum) to clarify.
 Assuming that the centre does take responsibility for handling card transactions, I would make the description absolutely categorical:
 'The product shall be PCI-DSS compliant.'

@@ -5,3 +5,13 @@ Rationale: aim of the new system is to integrate and simplify current business a
 Fit Criterion: Nine out of ten times the system users shall be able to successfully record information for a new workshop in less than 5 minutes with an accuracy of the 90%.
 Originator: Karen Black, Centre Administrator
 Comments: [Filippo Sassi] 
+[David Jakes] I think most of this looks good.  I am not sure about the final clause of the fit criterion, however:
+	'with an accuracy of the 90%',
+which I find a little ambiguous and perhaps out of place.
+'Nine out of ten times the system users shall be able to successfully record information for a new workshop in less than 5 minutes' seems to be about users accessing the product, knowing what they want to enter, and how easy it is for them to enter that information.  It measures against learnability and/or memorability goals (Sharp 2007), and could be assessed in eg observed usability tests.
+Does 'accuracy' in the final clause refer to
+	1 users avoiding straying from the necessary sequence of physical user steps required to enter data into the product?  If so, I would agree that such accuracy fits into this context, but the clause needs clarification.  To some extent, it might be argued that as long as the complete information is entered within five minutes, does it matter whether a user takes a false step at some stage?  I think there should be built-in safety to deal with that sort of problem.
+	2 the product being more conducive to entering accurate information.  In this case, what would inaccurate information be?  Typographical errors can be reduced to some extent by eg use of pickers etc.  I think measuring this quality could be interesting.  Consistent, accurate data entry might be measured against safety and possibly even effectiveness goals.  But I think a different form of assessment might be required, which might need to be run over a longer period of time than for interpretation 1.  And I think a separate non-functional requirement would be needed.
+	3 On the other hand, if an example of inaccurate information were something like a system user inputting a workshop title of 'Recycling', only to discover later that the facilitator is planning one called 'Sustainability', clearly a mechanism for easy updating needs to be in place, which might be measured against safety and possibly efficiency.  Obviously, this last requirement would be more about updating than entering information in the first place; not the context here.  Again, there would need to be a separate non-functional requirement.
+Reference
+Sharp, H, Rogers, Y, Preece, J (2007 p20) Interaction Design: Beyond Human-Computer Interaction Chichester: Wiley 

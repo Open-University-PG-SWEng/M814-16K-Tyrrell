@@ -9,3 +9,5 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 [David Perez] Fit criterion is spot on but I'm not 100% sure whether it can be classified as NFR rather than FR. 
 
 [Adrian Potter] The fit criterion should not define the solution to be implemented, only how it can be verified. As David says, the requirement is currently functional rather than non-functional. The current requirement would lead to a product that is inaccessible to colour blind users.
+
+[Archie Campbell] This is basically an FR at present. Perhaps it should move explicitly into the realm of Look and Feel with wording for the Fit Criterion along the lines of, "95% of users realize the notification has been made within ten seconds of its being made", or delegate to a subsystem that can achieve the same effect.

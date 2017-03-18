@@ -1,10 +1,11 @@
 REQ-ID: 032
 Description: The product shall comply with the Data Protection Act (UK)
 Type: Non Functional requirement - Legal
-Rationale: Personal information from member’s details must be governed by the Data Protection Act (UK).
+Rationale: Personal information from memberï¿½s details must be governed by the Data Protection Act (UK).
 Fit Criterion: Stored member details shall comply with the laws set out in the Data Protection Act (UK)
 Originator: Marion, Karen and centre administrator.
 Comments: [TC] [M814- Tyrrell].
 
+[Archie Campbell] - duplicate of NFR-004,020.
 
-
+[Tim Holmes-Mitra] NFRs 004/020 and 032 all relate to the DPA.  I think 004 is  different in that it deals with banking information, whereas 020 is a duplicate of this one.  I'm not sure how to deal with the conflict. Do we proceed in refining them and then approve/disprove the NFR down the line, or do we resolve the conflicts by choosing a different NFR now?

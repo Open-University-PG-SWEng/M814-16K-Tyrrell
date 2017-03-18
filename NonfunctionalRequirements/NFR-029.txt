@@ -6,3 +6,5 @@ Fit Criterion: HTTPS is possible to and from the relevant WIMS subsystem using a
 Originator: Archie Campbell
 Comments: 
 [Archie Campbell] HTTPS communication is required to prevent unsecured man in the middle attacks of various kinds during the charge session with the credit card operator.
+
+[Tony Cornwall] I would remove the technological elements (SSL,HTTPS) from the NFR. Try something like this "The product shall prevent unauthorized communications in the WIMS subsystem"

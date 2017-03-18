@@ -17,3 +17,4 @@ Comments: [TR] Add comments below, making sure to include your initials in [] at
                         like:
                        "Out of 100 successful report generations, none will have originated from a user without the proper permissions"
                        
+[Tony Cornwall] For me the unit of measure is authorization and the fit criterion says that in a roundabout way, you could also try "authorized users may not have access to any report of any other user" as a fit criterion.

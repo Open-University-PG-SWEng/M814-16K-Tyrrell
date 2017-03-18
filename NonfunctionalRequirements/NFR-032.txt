@@ -6,5 +6,4 @@ Fit Criterion: Stored member details shall comply with the laws set out in the D
 Originator: Marion, Karen and centre administrator.
 Comments: [TC] [M814- Tyrrell] 
 
-
-
+[Archie Campbell] - duplicate of NFR-004,020.

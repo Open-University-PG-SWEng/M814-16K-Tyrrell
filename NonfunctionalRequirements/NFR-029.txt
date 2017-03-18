@@ -4,4 +4,5 @@ Type: Security requirement
 Rationale: Secured HTTPS is required to secure the communications with whichever system for charging the credit card is devised.
 Fit Criterion: HTTPS is possible to and from the relevant WIMS subsystem using a trusted SSL provider bundle.
 Originator: Archie Campbell
-Comments: HTTPS communication is required to prevent unsecured man in the middle attacks of various kinds during the charge session with the credit card operator.
+Comments: 
+[Archie Campbell] HTTPS communication is required to prevent unsecured man in the middle attacks of various kinds during the charge session with the credit card operator.

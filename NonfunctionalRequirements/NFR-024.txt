@@ -1,0 +1,15 @@
+REQ-ID: 024
+Description: The product shall create a professional looking notification email
+Type: Non-functional requirement - type 10
+Rationale: The notification that is produced should comply with the organisational branding, promoting the
+centres professional approach while also ensuring the message's authenticity.
+Fit Criterion: The management sponsors shall certify that the notification appearance is in line the organisation's branding.
+Originator: Karen Black, Centre Administrator
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+
+[David Perez] It is an important requirement but the fit criterion seems to me more like a new requirement than a quality
+             attribute or measure of usuability/apperance of the product.
+
+[Tim Holmes-Mitra] FR-024 did not state how the notifications were going to be issued, but this NFR reads 'email' and is thus suggesting a technology.  Perhaps something similar to "... notifications issued by the product shall conform to the Centre's branding policy" is more appropriate?
+
+[Filippo Sassi] According to the look and field section on MRP chapter 15, this fit criterion might be expressed as follow: “The product shall be certified as complying with the organisation's branding by the management sponsors.” Which is basically what the original criterion is saying so I think it is correct.

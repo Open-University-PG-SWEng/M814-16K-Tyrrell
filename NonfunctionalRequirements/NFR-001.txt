@@ -1,0 +1,23 @@
+﻿REQ-ID: 001
+Description: Recording workshop information shall be easy.
+Type: Non-functional requirement – Usability and humanity (11)
+Rationale: aim of the new system is to integrate and simplify current business activities as entering information for a new workshop. It follows the system must provide this functionality so that its users can easily do that. 
+Fit Criterion: Nine out of ten times the system users shall be able to successfully record information for a new workshop in less than 5 minutes.
+Originator: Karen Black, Centre Administrator
+Comments: [Filippo Sassi] 
+[David Jakes] I think most of this looks good.  I am not sure about the final clause of the fit criterion, however:
+	'with an accuracy of the 90%',
+which I find a little ambiguous and perhaps out of place.
+'Nine out of ten times the system users shall be able to successfully record information for a new workshop in less than 5 minutes' seems to be about users accessing the product, knowing what they want to enter, and how easy it is for them to enter that information.  It measures against learnability and/or memorability goals (Sharp 2007), and could be assessed in eg observed usability tests.
+Does 'accuracy' in the final clause refer to
+	1 users avoiding straying from the necessary sequence of physical user steps required to enter data into the product?  If so, I would agree that such accuracy fits into this context, but the clause needs clarification.  To some extent, it might be argued that as long as the complete information is entered within five minutes, does it matter whether a user takes a false step at some stage?  I think there should be built-in safety to deal with that sort of problem.
+	2 the product being more conducive to entering accurate information.  In this case, what would inaccurate information be?  Typographical errors can be reduced to some extent by eg use of pickers etc.  I think measuring this quality could be interesting.  Consistent, accurate data entry might be measured against safety and possibly even effectiveness goals.  But I think a different form of assessment might be required, which might need to be run over a longer period of time than for interpretation 1.  And I think a separate non-functional requirement would be needed.
+	3 On the other hand, if an example of inaccurate information were something like a system user inputting a workshop title of 'Recycling', only to discover later that the facilitator is planning one called 'Sustainability', clearly a mechanism for easy updating needs to be in place, which might be measured against safety and possibly efficiency.  Obviously, this last requirement would be more about updating than entering information in the first place; not the context here.  Again, there would need to be a separate non-functional requirement.
+Reference
+Sharp, H, Rogers, Y, Preece, J (2007 p20) Interaction Design: Beyond Human-Computer Interaction Chichester: Wiley 
+
+[David Perez] It is a very traceable and measurable fit criterion. As David Jakes pointed out, the concept of accuracy on this concept might need further clarification. 
+
+[Gavin Sore] Is the requirement 'Easy to Learn' or 'Easy to Use'? As the metric differs for each.  A task that takes longer than 5 minutes can still be considered easy, and therefore the time aspect looks arbitrary. As an example, what if the user has to write a 3000 word description of the workshop because it is later used when publishing the workshop details.  Just because it took a long time to type doesn't mean the system wasn't 'easy'. 
+
+[Filippo Sassi] Thanks for the comments, I've updated the fit criterion removing the reference to accuracy which was unnecessary since according to MRP chapter 5 a reference to the time the task will take to complete is enough for testing usability requirements. Obviously this is a fake scenario: in the real word deciding how easy a task is would require interviews with the relevant stakeholders. Since this is not possible, let’s assume that this has been done and Karen and the main system users have judge 5 minutes as a good average for entering workshop information.

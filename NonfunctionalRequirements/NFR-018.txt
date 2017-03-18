@@ -1,0 +1,31 @@
+REQ-ID: 018
+Description: The product shall be efficient and easy to use.
+Type: Usability (check this)
+Rationale: To ensure user adoption of the system
+Fit Criterion: Users should be able to successfully access membership, reservations, payments and plan activites on their first attempt. A request for a record should return a response in less than 0.5s.
+Originator: Justin and Marion
+Comments: [Chris Freshman] Add comments below, making sure to include your initials in [] at the start.
+[David Jakes] This might be better separated into two discrete non-functional requirements.  Sharp et alia (2207) suggest six usability goals:
+	utility
+	efficiency
+	effectiveness
+	safety
+	learnability
+	memorability
+Efficiency is on its own, but the last two contribute to ease of use.  They can be measured in different ways.
+Nothing is cast in stone of course, but your fit criterion actually includes two measurable criteria, and, since your requirement seems to cover at least four use cases, a huge amount of testing will be involved.
+Also, who are the users?  Centre customers might be able to access their own membership details, but they are unlikely to use the system as regularly as staff members, so I think there needs to be some caution with the metrics.  Currently, you are implying that 100% of users are successful on their first attempt.  The specification is likely to become part of a contract.  That's a big ask.  Nielsen (2001) has a useful discussion on metrics.
+I think measuring the response time is really a performance non-functional requirement, although certainly it must contribute to efficiency.
+References
+Nielsen, J (2001) Usability Metrics [online].  Available at https://www.nngroup.com/articles/usability-metrics/ (Accessed 14 March 2017)
+Sharp, H, Rogers, Y, Preece, J (2007 p20) Interaction Design: Beyond Human-Computer Interaction Chichester: Wiley 
+
+[David Perez] The fit criterion provided is only measurable in terms of reaction time to an invoked command or operation. It doesn't provide traceability regarding usuability. Furthermore,
+ +              although the test feature would provide a clear indication of favorable user experience, it would not reflect fully the concept of efficiency. For example, different users might 
+ +              have different needs and there will be a variety of users with different skills. How fast they will learn to use the product efficiently doesn't necessarily benefit of fast time response.
+ 
+[Constantinos Morfakis] I believe that for this specific project ease of use should reflect the stakeholders' need of tasks being
+                        accomplishable from different personnel who have no clearly-assigned job positions (since they be asked to
+                        complete a different task than usual as a result of another employee being absent, etc.)
+                        Therefore I would suggest fit criterion of something along the lines of:
+                        "75% of users should be able to accomplish their task successfully after 30 minutes of training and with no further assistance"

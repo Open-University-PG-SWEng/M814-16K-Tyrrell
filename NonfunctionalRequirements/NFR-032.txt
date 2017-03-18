@@ -1,0 +1,10 @@
+REQ-ID: 032
+Description: The product shall comply with the Data Protection Act (UK)
+Type: Non Functional requirement - Legal
+Rationale: Personal information from member’s details must be governed by the Data Protection Act (UK).
+Fit Criterion: Stored member details shall comply with the laws set out in the Data Protection Act (UK)
+Originator: Marion, Karen and centre administrator.
+Comments: [TC] [M814- Tyrrell] 
+
+
+

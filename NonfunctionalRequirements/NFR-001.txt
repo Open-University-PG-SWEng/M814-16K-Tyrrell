@@ -2,7 +2,7 @@
 Description: Recording workshop information shall be easy.
 Type: Non-functional requirement – Usability and humanity (11)
 Rationale: aim of the new system is to integrate and simplify current business activities as entering information for a new workshop. It follows the system must provide this functionality so that its users can easily do that. 
-Fit Criterion: Nine out of ten times the system users shall be able to successfully record information for a new workshop in less than 5 minutes with an accuracy of the 90%.
+Fit Criterion: Nine out of ten times the system users shall be able to successfully record information for a new workshop in less than 5 minutes.
 Originator: Karen Black, Centre Administrator
 Comments: [Filippo Sassi] 
 [David Jakes] I think most of this looks good.  I am not sure about the final clause of the fit criterion, however:
@@ -19,3 +19,5 @@ Sharp, H, Rogers, Y, Preece, J (2007 p20) Interaction Design: Beyond Human-Compu
 [David Perez] It is a very traceable and measurable fit criterion. As David Jakes pointed out, the concept of accuracy on this concept might need further clarification. 
 
 [Gavin Sore] Is the requirement 'Easy to Learn' or 'Easy to Use'? As the metric differs for each.  A task that takes longer than 5 minutes can still be considered easy, and therefore the time aspect looks arbitrary. As an example, what if the user has to write a 3000 word description of the workshop because it is later used when publishing the workshop details.  Just because it took a long time to type doesn't mean the system wasn't 'easy'. 
+
+[Filippo Sassi] Thanks for the comments, I've updated the fit criterion removing the reference to accuracy which was unnecessary since according to MRP chapter 5 a reference to the time the task will take to complete is enough for testing usability requirements. Obviously this is a fake scenario: in the real word deciding how easy a task is would require interviews with the relevant stakeholders. Since this is not possible, let’s assume that this has been done and Karen and the main system users have judge 5 minutes as a good average for entering workshop information.

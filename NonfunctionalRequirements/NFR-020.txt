@@ -6,4 +6,6 @@ Fit Criterion: When the Centre's lawyers are satisfied that the product complies
 Originator: Tim Holmes-Mitra
 Comments:
 
-[Filippo Sassi] Possible duplicate of NFR-004 already stating: “The product shall comply with the UK Data Protection Act”.
+[Filippo Sassi] Possible duplicate of NFR-004 already stating: ï¿½The product shall comply with the UK Data Protection Actï¿½.
+
+[Tim Holmes-Mitra] You're absolutely right; obviously I didn't read NFR-004 before submitting. Does it make a difference if the NFRs are applied for different reasons? FR/NFR-004 deals specifically with banking information, whereas my FR/NFR-020 deal with membership PII. My assumption is that in reality we would consolidate NFRs downstream?

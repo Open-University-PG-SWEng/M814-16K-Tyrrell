@@ -12,4 +12,7 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 [Tony Cornwall] The description is a bit ambiguous as I was not sure if the payment receipt or record should be up to date, however your Rationale and Fit Criterion do clarify this.  
 
 [Archie Campbell] To make development of the tests for this fit criterion more simple, might it be better to specify a maximum length of receipt document and a minimum length of payment collection for the required throughput? We are essentially testing the bandwidth of the receipt records system, and here a more specifically generic fit criterion might serve the developers better.
- 
+
+[TR] I dont really understand what do you mean by payment receipt, and how it can be "out" of date. I mean, payment receipt is nowadays some cryptographic string, like validation token. You can obviously store this tokens together with UserID and some timestamp, but it cant go off! Once it was validated and transaction was valid, receipt is generated and thats it. I suggest removing this requirement completely.
+
+[Archie Campbell] TR: out of date needs specification, but talk of hashes is confusing the issue. Better to recommend an index for the database or realise that specification of the time limit for response of the system is 10 minutes. 

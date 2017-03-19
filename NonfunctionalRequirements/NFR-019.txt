@@ -4,6 +4,7 @@ Type: 17, Legal
 Rationale: This ensures that a cardholderï¿½s data is protected and maintained through a secure network. PCI-DSS is the industry standard.
 Fit Criterion 1: As the WIMS is handling smaller volumes, a Self-Assessment Questionnaire (SAQ) document is required to be completed each and every year and submit to the transaction Bank.
 Fit Criterion 2: Store digital recordings that include sensitive card data won't be able to be queried
+Fit Criterion 3: Company's lawyers or external audit should review the product to ensure data protection according to legal conditions.
 Originator: Justin and Marion
 Comments: [David Perez] The actual transaction will be conducted by an adjacent system but the billing information collected has to meet the interface specs to the adjacent system.
 
@@ -23,3 +24,7 @@ PCI Security Standards Council (2017a) PCI Security [online].  Available at http
 PCI Security Standards Council (2017b) Maintaining payment security [online].  Available at https://www.pcisecuritystandards.org/pci_security/maintaining_payment_security (Accessed 17 March 2017)
 Robertson, S & Robertson, J (2013 p295) Mastering the Requirements Process: Getting Requirements Right [ebook] Massachusetts: Pearson Education
 The UK Cards Association (2017) If I’m not compliant, what may happen to me and my business? [online].  Available at http://www.theukcardsassociation.org.uk/security/Non_compliance_PCIDSS.asp (Accessed 17 March 2017)
+
+[David Perez] Changes applied refer to the type of NFR, in this case legal and, therefore, it would be convenient to involve a legal authority in the validation of the product to ensure data protection legal terms and conditions. As a consequence, a fit criterion 3 has been added.
+It has been suggested that as I have assumed that the centre does take responsibility for handling card transactions, I would have made the description absolutely categorical. I have neglected this input as the product scope goes far beyond the PCI-DSS standard and the intention is to be scalable to other markets with different standards.
+It was also suggested that someone if the company shall have responsibility for ensuring the product's continuing PCI-DSS compliance. However, given the size of the company it is not actually mandatory according to the standard and, as such, the only requirement is served by the fit criterion 1.

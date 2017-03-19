@@ -14,3 +14,5 @@ Comments: [TC] [M814- Tyrrell]
 [Tony Cornwall] Revised the NFRi
 
 [Archie Campbell] Reading this, I am unsure whether to recommend better training for staff in one-handed computer usage and to advise the centre that they will require bluetooth headsets; or whether the VoIP subsystem will connect their terminals to the necessary information automatically. Is it the case that the NFR requires staff training, or should the software manage the task itself? This may need to go back to stakeholders or be referred rootwards for a scoping decision.
+
+[Chris Freshman] Suggest revising Fit critereon to read "...within the first 30 seconds of recieving the relevant information". Current fit critereon relies on the person on theother end of the phone which may result in an unfair test]

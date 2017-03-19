@@ -13,3 +13,5 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 [Tim Holmes-Mitra] FR-024 did not state how the notifications were going to be issued, but this NFR reads 'email' and is thus suggesting a technology.  Perhaps something similar to "... notifications issued by the product shall conform to the Centre's branding policy" is more appropriate?
 
 [Filippo Sassi] According to the look and field section on MRP chapter 15, this fit criterion might be expressed as follow: “The product shall be certified as complying with the organisation's branding by the management sponsors.” Which is basically what the original criterion is saying so I think it is correct.
+
+[Chris Freshman] Description specifies method of notification, does this need to be specified at this stage. Suggests removing email and changeing wording to "notifications".Or perhaps it should be more generic: The product shall comply with company branding for all external communications]

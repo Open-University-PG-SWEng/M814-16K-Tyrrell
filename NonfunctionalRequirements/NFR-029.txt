@@ -8,3 +8,5 @@ Comments:
 [Archie Campbell] HTTPS communication is required to prevent unsecured man in the middle attacks of various kinds during the charge session with the credit card operator.
 
 [Tony Cornwall] I would remove the technological elements (SSL,HTTPS) from the NFR. Try something like this "The product shall prevent unauthorized communications in the WIMS subsystem"
+
+[Archie Campbell] Tony's comment ignored as all the available systems for processing credit and debit cards _do_ require HTTPS and a valid SSL certificate. This is not a functional requirement and there is no point in being pedantic about lacking technological elements at this stage. "If not now, when?"

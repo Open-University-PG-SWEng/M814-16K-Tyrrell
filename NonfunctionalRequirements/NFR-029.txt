@@ -10,3 +10,5 @@ Comments:
 [Tony Cornwall] I would remove the technological elements (SSL,HTTPS) from the NFR. Try something like this "The product shall prevent unauthorized communications in the WIMS subsystem"
 
 [TR] I completely agree with [Tony Cornwall], requirements should be generic and in fact SSL is dying and we should not bound it 
+
+[Archie Campbell] Tony's comment ignored as all the available systems for processing credit and debit cards _do_ require HTTPS and a valid SSL certificate. This is not a functional requirement and there is no point in being pedantic about lacking technological elements at this stage. "If not now, when?"

@@ -11,4 +11,6 @@ Comments: [TC] [M814- Tyrrell]
 
 [Tim Holmes-Mitra] NFRs 004/020 and 032 all relate to the DPA.  I think 004 is  different in that it deals with banking information, whereas 020 is a duplicate of this one.  I'm not sure how to deal with the conflict. Do we proceed in refining them and then approve/disprove the NFR down the line, or do we resolve the conflicts by choosing a different NFR now?
 
-[Tony Cornwall] Revised the NFR
+[Tony Cornwall] Revised the NFRi
+
+[Archie Campbell] Reading this, I am unsure whether to recommend better training for staff in one-handed computer usage and to advise the centre that they will require bluetooth headsets; or whether the VoIP subsystem will connect their terminals to the necessary information automatically. Is it the case that the NFR requires staff training, or should the software manage the task itself? This may need to go back to stakeholders or be referred rootwards for a scoping decision.

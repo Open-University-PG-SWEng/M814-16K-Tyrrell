@@ -8,3 +8,5 @@ Comments:
 [Archie Campbell] HTTPS communication is required to prevent unsecured man in the middle attacks of various kinds during the charge session with the credit card operator.
 
 [Tony Cornwall] I would remove the technological elements (SSL,HTTPS) from the NFR. Try something like this "The product shall prevent unauthorized communications in the WIMS subsystem"
+
+[TR] I completely agree with [Tony Cornwall], requirements should be generic and in fact SSL is dying and we should not bound it 

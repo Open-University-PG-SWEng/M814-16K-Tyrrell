@@ -2,7 +2,7 @@ REQ-ID: 023
 Description: Product shall allow generate reports only to users with correct permissions assigned.
 Type: Security
 Rationale: Product will take care of multiple user types - authenticated user, user with membership, volunteers, administrators etc. We need to make sure, that only users with certain permission can generate reports.
-Fit Criterion: Register multiple user types, with different types of permissions assigned and try to generate reports. Product should disallow this task.
+Fit Criterion: Create all possible user types, with all possible permissions types and assign them to created users. Finally, generate reports for every user. Report failure in any case of report generation for unauthorised user or user without appropriate permissions.
 Originator: Karen Black, Centre Administrator 
 Comments: [TR] Add comments below, making sure to include your initials in [] at the start.
 
@@ -18,3 +18,4 @@ Comments: [TR] Add comments below, making sure to include your initials in [] at
                        "Out of 100 successful report generations, none will have originated from a user without the proper permissions"
                        
 [Tony Cornwall] For me the unit of measure is authorization and the fit criterion says that in a roundabout way, you could also try "authorized users may not have access to any report of any other user" as a fit criterion.
+[TR] Thank you for all comments, unfortunately there is no need to specify roles, as far as this would create restriction in future. We don't know how many user types product will have and which of them will have permission to generate reports. Then there is no need to measure statistically authorisation process, only thing we need is to specify all possible scenarios a prepare automation unit testing to make sure that this task is working over development time. But I rephrased existing fit criterion in order to better understand its meaning. Old version for reference: "Register multiple user types, with different types of permissions assigned and try to generate reports. Product should disallow this task."  

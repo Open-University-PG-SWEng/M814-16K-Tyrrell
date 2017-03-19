@@ -10,4 +10,6 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 [Tim Holmes-Mitra] It might be worth reworking your description to align with the recommended MRP structure of "The product shall keep payment receipt records up to date".  Additionally, the payment system is an adjacent system and so we may not control how quickly it produces payment confirmations.  I think your NFR is valid though, and I'm not sure if anything needs to be changed. The WIMS could note that a user attempted payment and display  'confirmation pending' until the adjacent system returns the receipt, for example.
 
 [Tony Cornwall] The description is a bit ambiguous as I was not sure if the payment receipt or record should be up to date, however your Rationale and Fit Criterion do clarify this.  
+
+[TR] I dont really understand what do you mean by payment receipt, and how it can be "out" of date. I mean, payment receipt is nowadays some cryptographic string, like validation token. You can obviously store this tokens together with UserID and some timestamp, but it cant go off! Once it was validated and transaction was valid, receipt is generated and thats it. I suggest removing this requirement completely.
  

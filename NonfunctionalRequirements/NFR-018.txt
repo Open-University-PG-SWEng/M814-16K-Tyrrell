@@ -1,10 +1,11 @@
 REQ-ID: 018
-Description: The product shall be efficient and easy to use.
-Type: Usability (check this)
-Rationale: To ensure user adoption of the system
-Fit Criterion: Users should be able to successfully access membership, reservations, payments and plan activites on their first attempt. A request for a record should return a response in less than 0.5s.
+Description: The product shall allow Walton employees to access required information easily
+Type: Usability
+Rationale: To ensure adoption of the system by Walton Employees
+Fit Criterion: 75% of users should be able to accomplish their task successfully after 30 minutes of training and with no further assistance
 Originator: Justin and Marion
 Comments: [Chris Freshman] Add comments below, making sure to include your initials in [] at the start.
+
 [David Jakes] This might be better separated into two discrete non-functional requirements.  Sharp et alia (2207) suggest six usability goals:
 	utility
 	efficiency
@@ -29,3 +30,5 @@ Sharp, H, Rogers, Y, Preece, J (2007 p20) Interaction Design: Beyond Human-Compu
                         complete a different task than usual as a result of another employee being absent, etc.)
                         Therefore I would suggest fit criterion of something along the lines of:
                         "75% of users should be able to accomplish their task successfully after 30 minutes of training and with no further assistance"
+
+[Chris Freshman] Comments taken on board and NFR updated

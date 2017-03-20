@@ -2,7 +2,7 @@
 Description: Walton Sustainability administration staff should be able to list member details rapidly
 Type: Non Functional Requirement - Performance
 Rationale: Centre administration staff require quick access to member details during phone calls.
-Fit Criterion: Centre administration staff must retrieve member details within the first 30 seconds of the phone call. 
+Fit Criterion: Centre administration sfaff must retrieve member details within first 30 seconds of requesting the information
 Originator: Marion, Karen and centre administrator.
 Comments: [TC] [M814- Tyrrell]
 

@@ -15,8 +15,8 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 [TR] Again requirement telling "exactly" what should happen, why specify color in requirement. It does not have to be RED, not green. We dont know client preferences in terms of color scheme. I suggest to use configurable color scheme, and approach similar to material desing/ionic when is common to use emotion instead of color. For example instead of green use 'Calm'...
 
 ---------------------------------------------------------
-Description: This product should clearly notify the user if (or not) a conflict is found
+Description: Conflict/error messages should be clearly legible and easy to troubleshoot.
 Type: Usability
 Rationale: To ensure that when conflicts or issues are found, it is clear to the user and the conflict can be investigated and resolved
-Fit Criterion: 90% of a test panel should be able to identify when a conflict has been found and be able to understand and solve the conflict
+Fit Criterion: 95% of a test panel should be able to identify when a conflict has been found and be able to understand and solve the conflict
 Originator: James Gallagher

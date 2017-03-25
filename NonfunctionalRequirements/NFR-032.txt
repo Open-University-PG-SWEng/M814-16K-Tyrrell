@@ -1,0 +1,18 @@
+﻿REQ-ID: 032
+Description: Walton Sustainability administration staff should be able to list member details rapidly
+Type: Non Functional Requirement - Performance
+Rationale: Centre administration staff require quick access to member details during phone calls.
+Fit Criterion: Centre administration staff must retrieve member details within the first 30 seconds of the phone call. 
+Originator: Marion, Karen and centre administrator.
+Comments: [TC] [M814- Tyrrell]
+
+
+[Archie Campbell] - duplicate of NFR-004,020.
+
+[Tim Holmes-Mitra] NFRs 004/020 and 032 all relate to the DPA.  I think 004 is  different in that it deals with banking information, whereas 020 is a duplicate of this one.  I'm not sure how to deal with the conflict. Do we proceed in refining them and then approve/disprove the NFR down the line, or do we resolve the conflicts by choosing a different NFR now?
+
+[Tony Cornwall] Revised the NFRi
+
+[Archie Campbell] Reading this, I am unsure whether to recommend better training for staff in one-handed computer usage and to advise the centre that they will require bluetooth headsets; or whether the VoIP subsystem will connect their terminals to the necessary information automatically. Is it the case that the NFR requires staff training, or should the software manage the task itself? This may need to go back to stakeholders or be referred rootwards for a scoping decision.
+
+[Chris Freshman] Suggest revising Fit critereon to read "...within the first 30 seconds of recieving the relevant information". Current fit critereon relies on the person on theother end of the phone which may result in an unfair test]

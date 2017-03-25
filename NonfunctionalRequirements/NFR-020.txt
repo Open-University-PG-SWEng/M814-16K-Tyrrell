@@ -1,0 +1,15 @@
+REQ-ID: 020
+Description: The product shall comply with the Data Protection Act of 1998 as amended.
+Type: Non-functional requirement -- Legal (Type 17)
+Rationale: Whenever a new membership is created the product will gather and save personally identifiable information.  We are legally required to safeguard that information in accordance with the Data Protection Act of 1998. Failure to responsibility safeguard customer information could result in lost customer confidence, monetary fines from the ICO, or fewer customers becoming members.
+Fit Criterion: When the Centre's lawyers are satisfied that the product complies with the criteria specified in the Data Protection Act of 1998, specifically Part II.
+Originator: Tim Holmes-Mitra
+Comments:
+
+[Filippo Sassi] Possible duplicate of NFR-004 already stating: �The product shall comply with the UK Data Protection Act�.
+
+[Tim Holmes-Mitra] You're absolutely right; obviously I didn't read NFR-004 before submitting. Does it make a difference if the NFRs are applied for different reasons? FR/NFR-004 deals specifically with banking information, whereas my FR/NFR-020 deal with membership PII. My assumption is that in reality we would consolidate NFRs downstream?
+
+[Tim Holmes-Mitra] Upon reflection I don't think this is a duplicate of NFR-004.  NFR-004 deals with banking information, and this NFR deals with membership information, thus they are aligned to differnt FRs and serve different purposes.  The next step would be to link NFRs-004 and 020 and replace them with a single NFR ensuring that any PII saved within WIMS is handled in compliance with the DPA and then linking a single NFR to the multiple FR which might contain PII. Thoughts?
+
+[Tim Holmes-Mitra] No objections recieved and so I am assuming this NFR is approved.

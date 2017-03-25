@@ -1,0 +1,30 @@
+REQ-ID: NFR-019
+Description: The product shall meet data security compliance standards, such as PCI-DSS.
+Type: 17, Legal
+Rationale: This ensures that a cardholderï¿½s data is protected and maintained through a secure network. PCI-DSS is the industry standard.
+Fit Criterion 1: As the WIMS is handling smaller volumes, a Self-Assessment Questionnaire (SAQ) document is required to be completed each and every year and submit to the transaction Bank.
+Fit Criterion 2: Store digital recordings that include sensitive card data won't be able to be queried
+Fit Criterion 3: Company's lawyers or external audit should review the product to ensure data protection according to legal conditions.
+Originator: Justin and Marion
+Comments: [David Perez] The actual transaction will be conducted by an adjacent system but the billing information collected has to meet the interface specs to the adjacent system.
+
+[Tim Holmes-Mitra] MRP page 295 suggests that for legal NFRs the fit criteria should include a review by the company's lawyers. In this instance, it would be useful to have the lawyers discuss with the software company to ensure data is protected before it's handed off to the third party as David suggests.  Additionally, it might also include confirmation that the third party adheres to UK data security standards.
+ 
+[David Jakes] I have re-read 'Walton Sustainability Centre - discussion' from TMA02.  I had originally assumed that a third party would be responsible for card transactions, as per your comment, but I am no longer clear that that is the case.  The centre does seem to be handling card transactions.  It is only the accounts package that is clearly out of scope.  I suspect that we should have asked the client (aka Sebastian on the forum) to clarify.
+Assuming that the centre does take responsibility for handling card transactions, I would make the description absolutely categorical:
+'The product shall be PCI-DSS compliant.'
+The UK Cards Association (2017) details the risks of non-compliance.  Of course, the requirement would need client agreement, but that is true of all  requirements.
+I have had no direct involvement with achieving PCI-DSS compliance.  I was aware of PCI Security Standards Council (2017) from a brief reference in the M811 module materials.  From PCI Security Standards Council (2017a) and PCI Security Standards Council (2017b), I would guess that your two fit criteria might well correspond to two elements needed for compliance.  But I don't think that fulfilment of both fit criteria would fully achieve compliance, and, of course, I should not be guessing.  Perhaps you have the necessary experience, but does anybody at the centre?  Robertson & Robertson (2013) suggests a formulaic approach to writing fit criteria for meeting legal requirements, of course.
+I was struck by PCI DSS Requirement 12 (PCI Security Standards Council 2017b).  The centre might well already have an Information Security Policy, for which a member of staff should have responsibility.  If not, clearly an IS policy will need to be put in place.  Calder & Watkins (2015), the set book for M811, stresses the importance of having a designated member of staff responsible for each security area.  That individual should have the qualifications and authority to enforce requirements arising from their area of concern.
+For this non-functional requirement, I would have a single fit criterion:
+A named member of centre staff, with suitable qualifications and authority, shall have responsibility for ensuring the product's continuing PCI-DSS compliance.
+References
+Calder, A & Watkins, S (2015 p54) IT Governance: An International Guide to Data Security and ISO27001/ISO27002 [ebook] London: Kogan Page
+PCI Security Standards Council (2017a) PCI Security [online].  Available at https://www.pcisecuritystandards.org/pci_security/ (Accessed 17 March 2017)
+PCI Security Standards Council (2017b) Maintaining payment security [online].  Available at https://www.pcisecuritystandards.org/pci_security/maintaining_payment_security (Accessed 17 March 2017)
+Robertson, S & Robertson, J (2013 p295) Mastering the Requirements Process: Getting Requirements Right [ebook] Massachusetts: Pearson Education
+The UK Cards Association (2017) If I’m not compliant, what may happen to me and my business? [online].  Available at http://www.theukcardsassociation.org.uk/security/Non_compliance_PCIDSS.asp (Accessed 17 March 2017)
+
+[David Perez] Changes applied refer to the type of NFR, in this case legal and, therefore, it would be convenient to involve a legal authority in the validation of the product to ensure data protection legal terms and conditions. As a consequence, a fit criterion 3 has been added.
+It has been suggested that as I have assumed that the centre does take responsibility for handling card transactions, I would have made the description absolutely categorical. I have neglected this input as the product scope goes far beyond the PCI-DSS standard and the intention is to be scalable to other markets with different standards.
+It was also suggested that someone if the company shall have responsibility for ensuring the product's continuing PCI-DSS compliance. However, given the size of the company it is not actually mandatory according to the standard and, as such, the only requirement is served by the fit criterion 1.

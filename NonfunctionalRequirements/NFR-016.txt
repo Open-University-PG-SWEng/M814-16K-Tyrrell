@@ -1,0 +1,22 @@
+REQ-ID: 016
+Description: This product should return a clear colour coded message showing if (or not) conflict exsists. 
+Type: Usability
+Rationale: To ensure that when conflicts or issues are found, it is clear to the user and the conflict can be investigated.   
+Fit Criterion: A bold red message should be displayed if conflicts are found and a bold green message if no conflict is found. 
+Originator: James Gallagher
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+
+[David Perez] Fit criterion is spot on but I'm not 100% sure whether it can be classified as NFR rather than FR. 
+
+[Adrian Potter] The fit criterion should not define the solution to be implemented, only how it can be verified. As David says, the requirement is currently functional rather than non-functional. The current requirement would lead to a product that is inaccessible to colour blind users.
+
+[Archie Campbell] This is basically an FR at present. Perhaps it should move explicitly into the realm of Look and Feel with wording for the Fit Criterion along the lines of, "95% of users realize the notification has been made within ten seconds of its being made", or delegate to a subsystem that can achieve the same effect.
+
+[TR] Again requirement telling "exactly" what should happen, why specify color in requirement. It does not have to be RED, not green. We dont know client preferences in terms of color scheme. I suggest to use configurable color scheme, and approach similar to material desing/ionic when is common to use emotion instead of color. For example instead of green use 'Calm'...
+
+---------------------------------------------------------
+Description: Conflict/error messages should be clearly legible and easy to troubleshoot.
+Type: Usability
+Rationale: To ensure that when conflicts or issues are found, it is clear to the user and the conflict can be investigated and resolved
+Fit Criterion: 95% of a test panel should be able to identify when a conflict has been found and be able to understand and solve the conflict
+Originator: James Gallagher

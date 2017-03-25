@@ -1,0 +1,27 @@
+REQ-ID: 12
+Description: The product shall render discovery of workshop place availability easy for centre staff and the general public.
+Type: Usability and humanity (11)
+Rationale: The rationale for functional requirement REQ-ID 12 relates to the continued viability of the business, and its potential expansion.  In support of the latter, the clients wish to
+											enable a more efficient use of facilities
+											reduce the (manual) administrative work
+											reduce the numbers of errors in facility and workshop bookings.
+The product must be easy to use by centre staff.
+Currently, to book a workshop place, a member of the public telephones the centre, and, having checked place availability, the staff-member who takes the call makes the booking.  In a future business use case, a member of the general public might have responsibility for making their own booking.  Therefore this requirement applies to all types of user. 
+Fit Criterion: Having identified a workshop of interest, 9 out of 10 of users shall perform the necessary sequence of physical user steps to determine place availability for that workshop within 15 seconds.
+Originator: Marion
+Analyst's comment: values included in the fit criterion are subject to adjustment after usability testing (Nielsen 2001)
+Reference: Nielsen, J (2001) Usability Metrics [online].  Available at https://www.nngroup.com/articles/usability-metrics/ (Accessed 14 March 2017)
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+
+[Gavin Sore] No detail has been given on when the NFR will be tested, is it to a test group if so who are in the test group, or is it all users over a given period? I believe the gold plating relating to future access of the general public is mudding the waters here.
+
+[David Perez] So far, it is the best fit criterion I have assigned for the group NFRs. However, I wonder whether you should be more specific about "the necessary steps to". What are these steps?
+
+[Filippo Sassi] I agree with David that "necessary steps" (not listed) might render ambiguous the fit criterion. I would just remove that reference and state "... 9 out of 10 of users shall successfully determine place availability..." instead.
+
+[David Jakes] Many thanks for the comments.  I have changed the wording 'necessary steps' to 'necessary sequence of physical user steps'.  I had taken on board David's comment the other day, and used the amended wording in my comment to non-functional requirement 1.
+Filippo, I prefer this amendment to removing the clause altogether.  I do think that the sequence of physical steps should be tested specifically, whatever the nature of the steps.  However, I don't think I should be any more specific at this stage.  I can imagine the 'physical steps' constituting eg a sequence of mouse clicks, or a sequence of button presses on a mobile phone.  Whatever the solution, I think this fit criterion should apply.
+Gavin, I think it is up to the development team to determine the testing strategy, as long as the fit criterion is met.  With the caveat, of course, that, if the testing is iterative, the values might be amended, as suggested in Nielsen (2001).  I have the impression that there was insufficient usability testing on WIMS.  According to the case study in TMA03 Question 2, there had been some 'initial complaints from staff that the system was difficult to use'.
+I can scarcely agree that the future business use case I described is 'gold plating'.  Robertson & Robertson (2013) encourages us to identify the 'real problem'.  For me, here, the real problem is that a user needs to be booked on a workshop, not that a member of staff needs to be able to book the user on a workshop.  I think that if centre customers are allocated responsibility for more use cases, there must be greater efficiency gains for staff.  And, in support of this thinking, customer: register for an activity is a proposed use case for WORMS, of course.
+Reference
+Robertson, S & Robertson, J (2013 chapter 7) Mastering the Requirements Process: Getting Requirements Right [ebook] Massachusetts: Pearson Education

@@ -1,0 +1,21 @@
+REQ-ID: 023
+Description: Product shall allow generate reports only to users with correct permissions assigned.
+Type: Security
+Rationale: Product will take care of multiple user types - authenticated user, user with membership, volunteers, administrators etc. We need to make sure, that only users with certain permission can generate reports.
+Fit Criterion: Create all possible user types, with all possible permissions types and assign them to created users. Finally, generate reports for every user. Report failure in any case of report generation for unauthorised user or user without appropriate permissions.
+Originator: Karen Black, Centre Administrator 
+Comments: [TR] Add comments below, making sure to include your initials in [] at the start.
+
+[James Gallagher] It might be worth having acceptance criteria satisfying both an accepted as well as a rejected request. When you say 'multiple user types', you could be more verbose. For example, administrator, manager and finance user types should have access to the report. Anonymous, sales and reception users should receive security alert. It may also be worthwhile to log all failed attempts.
+
+[Adrian Potter] As James suggests, the fit criterion should be specific and mesaurable. In its current form, it would be satisfied if regular users could create reports but administrators couldn't.
+
+[David Perez] In my opinion the description and the fit criterion are misaligned because the fit criterion implies to test a system level solution rather than testing directly a invalid permission access. 
+ +              Perhaps the fit criterion should be rephrase in order to specify that the generation of reportes is not allowed rather than being reactive to it.
+
+[Constantinos Morfakis] To add to David Perez's I would suggest an ammendment to the current Fit Criterion to something
+                        like:
+                       "Out of 100 successful report generations, none will have originated from a user without the proper permissions"
+                       
+[Tony Cornwall] For me the unit of measure is authorization and the fit criterion says that in a roundabout way, you could also try "authorized users may not have access to any report of any other user" as a fit criterion.
+[TR] Thank you for all comments, unfortunately there is no need to specify roles, as far as this would create restriction in future. We don't know how many user types product will have and which of them will have permission to generate reports. Then there is no need to measure statistically authorisation process, only thing we need is to specify all possible scenarios a prepare automation unit testing to make sure that this task is working over development time. But I rephrased existing fit criterion in order to better understand its meaning. Old version for reference: "Register multiple user types, with different types of permissions assigned and try to generate reports. Product should disallow this task."  

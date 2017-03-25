@@ -1,0 +1,10 @@
+REQ-ID:035
+Description: The product shall record activities
+Type:Non-Functional - 014 maintainability and support
+Rationale: The system will be operated by non-technical staff who may not be able to describe the activities that have led to an error. 
+There should be a mechanism to assist support staff by providing them with information on activities undertaken by the application and resources used.
+Fit Criterion: The user, module or process, activity performed and resources used should be available for review by support staff.
+Originator: Marion and Justin
+Comments: [AGilmour] May require more specificity about retention period of information, whether there are any security implications. 
+[AGilmour] The level of detail may be governed by technology used. 
+
